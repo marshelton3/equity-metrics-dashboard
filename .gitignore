@@ -1,0 +1,20 @@
+# Ignore raw and processed data files
+data/raw/*.csv
+data/raw/*.txt
+data/processed/*.csv
+
+# Ignore virtual environment directories
+__pycache__/
+*.py[cod]
+.Python
+venv/
+env/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore VS specific files
+.vscode/
+
+# Ignore macOS system files
+.DS_Store
