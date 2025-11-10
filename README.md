@@ -41,13 +41,13 @@ Using data from the CDC WONDER database (2018-2022), we analyzed **6,214 materna
 
 **Key Policy Developments:**
 - **2020-2021**: Emergency COVID-19 provisions (temporary Medicaid coverage, telehealth expansion)
-- **April 2022**: American Rescue Plan Act implementation - States begin 12-month postpartum Medicaid coverage extensions
+- **April 2022**: American Rescue Plan Act implementation. States begin 12-month postpartum Medicaid coverage extensions
 - **2023-2024**: Post-intervention period (data pending CDC release)
 
 **Research Significance:**
-This analysis captures the critical pre-intervention baseline, allowing future assessment of whether Medicaid postpartum extensions effectively reduce disparities or if operational infrastructure gaps persist despite policy coverage.
+This analysis captures the critical pre-intervention baseline, allowing future assessment of whether Medicaid postpartum extensions effectively reduce disparities or if operational infrastructure gaps persist despite the extended policy coverage.
 
-**Hypothesis**: Policy coverage alone (Medicaid extension) will be insufficient without operational infrastructure investments in Process, People, and Technology - as demonstrated by differential COVID-19 impact despite universal policy responses.
+**Hypothesis**: Policy coverage alone (Medicaid extension) will be insufficient without operational infrastructure investments in process re-design, people, and technology. This evident in the differential COVID-19 outcomes, despite universal policy responses.
 
 ---
 
@@ -75,7 +75,7 @@ This analysis captures the critical pre-intervention baseline, allowing future a
 
 ##  Operational Equity Framework
 
-This analysis validates the **Operational Equity Framework**, which posits that health equity requires three equal components:
+This analysis validates the **Operational Equity Framework**, which suggests that health equity requires three equal components:
 
 ### 🔄 **PROCESS**
 Care workflows and service delivery pathways that eliminate systemic barriers
