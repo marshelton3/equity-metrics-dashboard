@@ -35,6 +35,20 @@ Using data from the CDC WONDER database (2018-2022), we analyzed **6,214 materna
 
 **The disparity gaps WIDENED during the COVID-19 pandemic, despite universal policy responses.**
 
+## 📅 Policy Context & Timeline
+
+**Analysis Period**: 2018-2022
+
+**Key Policy Developments:**
+- **2020-2021**: Emergency COVID-19 provisions (temporary Medicaid coverage, telehealth expansion)
+- **April 2022**: American Rescue Plan Act implementation - States begin 12-month postpartum Medicaid coverage extensions
+- **2023-2024**: Post-intervention period (data pending CDC release)
+
+**Research Significance:**
+This analysis captures the critical pre-intervention baseline, allowing future assessment of whether Medicaid postpartum extensions effectively reduce disparities or if operational infrastructure gaps persist despite policy coverage.
+
+**Hypothesis**: Policy coverage alone (Medicaid extension) will be insufficient without operational infrastructure investments in Process, People, and Technology - as demonstrated by differential COVID-19 impact despite universal policy responses.
+
 ---
 
 ## 📈 Visualizations
