@@ -2,7 +2,7 @@
 
 > Analyzing racial and ethnic disparities in maternal mortality across the United States (2018-2022)
 
-**Part of the [Isosalus](https://isosalus.com) Operational Equity Framework research initiative**
+**Part of the [Isosalus](https://isosalus.com) Operational Equity Framework Research Initiative**
 
 ---
 
