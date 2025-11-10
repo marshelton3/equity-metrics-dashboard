@@ -18,3 +18,9 @@ env/
 
 # Ignore macOS system files
 .DS_Store
+
+# Project journal (private notes)
+docs/project_journal.md
+
+# Project journal (private notes)
+docs/project_journal.md
