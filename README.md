@@ -47,7 +47,7 @@ Using data from the CDC WONDER database (2018-2022), we analyzed **6,214 materna
 **Research Significance:**
 This analysis captures the critical pre-intervention baseline, allowing future assessment of whether Medicaid postpartum extensions effectively reduce disparities or if operational infrastructure gaps persist despite the extended policy coverage.
 
-**Hypothesis**: Policy coverage alone (Medicaid extension) will be insufficient without operational infrastructure investments in process re-design, people, and technology. This evident in the differential COVID-19 outcomes, despite universal policy responses.
+**Hypothesis**: Policy coverage alone (Medicaid extension) will be insufficient without operational infrastructure investments in process re-design, people, and technology. This is evident in the differential COVID-19 outcomes, despite universal policy responses.
 
 ---
 
