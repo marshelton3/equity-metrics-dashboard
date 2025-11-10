@@ -6,7 +6,7 @@
 
 ---
 
-## 📊 Project Overview
+##  Project Overview
 
 This project provides a comprehensive analysis of maternal mortality disparities in the United States, examining how operational equity gaps contribute to persistent and widening disparities in maternal health outcomes.
 
@@ -14,7 +14,7 @@ Using data from the CDC WONDER database (2018-2022), we analyzed **6,214 materna
 
 ---
 
-## 🚨 Key Findings
+##  Key Findings
 
 ### National Disparities (2018-2022)
 
@@ -35,7 +35,7 @@ Using data from the CDC WONDER database (2018-2022), we analyzed **6,214 materna
 
 **The disparity gaps WIDENED during the COVID-19 pandemic, despite universal policy responses.**
 
-## 📅 Policy Context & Timeline
+##  Policy Context & Timeline
 
 **Analysis Period**: 2018-2022
 
@@ -51,7 +51,7 @@ This analysis captures the critical pre-intervention baseline, allowing future a
 
 ---
 
-## 📈 Visualizations
+##  Visualizations
 
 ### Comprehensive Dashboard
 
@@ -92,7 +92,7 @@ Data infrastructure, analytics capability, and monitoring systems
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 ```
 equity-metrics-dashboard/
 ─ notebooks/
@@ -111,7 +111,7 @@ equity-metrics-dashboard/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -153,7 +153,7 @@ equity-metrics-dashboard/
 
 ---
 
-## 📊 Data Sources
+##  Data Sources
 
 **Maternal Mortality Data:**
 - Source: CDC WONDER Multiple Cause of Death Database
@@ -170,7 +170,7 @@ equity-metrics-dashboard/
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Python 3.12**: Core programming language
 - **pandas**: Data manipulation and analysis
@@ -180,7 +180,7 @@ equity-metrics-dashboard/
 
 ---
 
-## 📚 Methodology
+##  Methodology
 
 ### Rate Calculation
 Maternal Mortality Rate (MMR) calculated as:
@@ -202,7 +202,7 @@ Disparity Ratio = (Group MMR / White NH MMR)
 
 ---
 
-## 🎯 Future Work
+##  Future Work
 
 **Upcoming analyses (Projects 2-6):**
 
@@ -214,7 +214,7 @@ Disparity Ratio = (Group MMR / White NH MMR)
 
 ---
 
-## 📄 Publications & Outputs
+##  Publications & Outputs
 
 **In Development:**
 - Peer-reviewed manuscript: "American Indian and Alaska Native Maternal Mortality: The Hidden Crisis"
@@ -223,7 +223,7 @@ Disparity Ratio = (Group MMR / White NH MMR)
 
 ---
 
-## 👤 About
+##  About
 
 **Marshawn Shelton, MPH, PMP, CCMP**
 
@@ -238,14 +238,14 @@ Disparity Ratio = (Group MMR / White NH MMR)
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **CDC WONDER**: For providing public access to vital statistics data
 - **Communities affected by maternal mortality disparities**: This work is dedicated to improving outcomes for all mothers.
 
 ---
 
-## ⚠️ Important Notes
+##  Important Notes
 
 **Data Privacy**: All data used is publicly available and de-identified. CDC WONDER suppresses small counts (<10) to protect privacy.
 
