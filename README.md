@@ -73,7 +73,7 @@ This analysis captures the critical pre-intervention baseline, allowing future a
 
 ---
 
-## 💡 Operational Equity Framework
+##  Operational Equity Framework
 
 This analysis validates the **Operational Equity Framework**, which posits that health equity requires three equal components:
 
@@ -257,4 +257,5 @@ Disparity Ratio = (Group MMR / White NH MMR)
 
 **Last Updated**: November 2025
 
-**Status**: ✅ Project 1 Complete | 🔄 Projects 2-6 In Development
+**Status**: 
+ ✅ Project 1 Complete
