@@ -95,19 +95,31 @@ Data infrastructure, analytics capability, and monitoring systems
 ##  Project Structure
 ```
 equity-metrics-dashboard/
-─ notebooks/
+── notebooks/
    ── 01_initial_exploration.ipynb    # National disparity analysis
    ── 02_temporal_trends.ipynb        # Temporal trends & COVID impact
+── src/
+   ── analysis.py                     # Reusable analytics toolkit  NEW
+   ── README.md                       # Module documentation NEW
 ── data/
    ── raw/                            # CDC WONDER data (not in repo)
 ── outputs/
    ── comprehensive_dashboard.png
    ── temporal_trends_by_race.png
    ── disparity_dashboard_complete.png
-── src/                                # Reusable functions (in development)
 ── docs/                               # Documentation (private notes)
 ── requirements.txt                    # Python dependencies
 ── README.md                           # This file
+```
+
+## 🛠️ Technologies Used
+
+- **Python 3.12**: Core programming language
+- **pandas**: Data manipulation and analysis
+- **matplotlib & seaborn**: Data visualization
+- **NumPy**: Numerical computing
+- **Jupyter Notebook**: Interactive analysis and documentation
+- **Modular architecture**: Reusable functions in `/src` module
 
 ---
 
