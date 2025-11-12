@@ -24,3 +24,11 @@ docs/project_journal.md
 
 # Project journal (private notes)
 docs/project_journal.md
+
+# Real client assessments (keep confidential)
+framework/clients/
+framework/*_client_*.md
+framework/*_confidential*.md
+
+# Future client data
+data/clients/

@@ -1,0 +1,524 @@
+{
+  "metadata": {
+    "framework_name": "Operational Equity Framework",
+    "version": "1.0",
+    "author": "Marshawn Shelton, MPH, PMP, CCMP",
+    "organization": "Isosalus",
+    "date_created": "2025-11-12",
+    "total_questions": 60,
+    "pillars": ["PROCESS", "PEOPLE", "TECHNOLOGY"]
+  },
+  
+  "scoring_guide": {
+    "points_per_question": 5,
+    "max_points_per_pillar": 100,
+    "max_total_score": 100,
+    "interpretation": {
+      "0-40": "Critical gaps - High risk of poor equity outcomes",
+      "41-60": "Moderate gaps - Some infrastructure present, significant improvement needed",
+      "61-80": "Minor gaps - Strong baseline with targeted improvement areas",
+      "81-100": "Best-in-class - Comprehensive operational equity infrastructure"
+    }
+  },
+
+  "PROCESS": {
+    "pillar_name": "PROCESS - Care Workflows & Service Delivery",
+    "pillar_description": "Evaluates whether care pathways, workflows, and operational procedures facilitate or impede equitable access and outcomes.",
+    "questions": [
+      {
+        "id": "P1",
+        "question": "Does your organization have documented, standardized care pathways for maternal health services?",
+        "type": "binary",
+        "options": ["Yes", "No"],
+        "scoring": {"Yes": 5, "No": 0},
+        "rationale": "Documented pathways ensure consistency and enable equity analysis across patient populations."
+      },
+      {
+        "id": "P2",
+        "question": "Are care pathways reviewed and updated to address identified disparities?",
+        "type": "scale",
+        "options": ["Never", "Annually", "Quarterly", "As disparities identified"],
+        "scoring": {"Never": 0, "Annually": 2, "Quarterly": 3, "As disparities identified": 5},
+        "rationale": "Responsive pathway updates ensure workflows adapt to identified equity gaps."
+      },
+      {
+        "id": "P3",
+        "question": "What percentage of care pathways include specific accommodations for language barriers?",
+        "type": "percentage",
+        "options": ["0-25%", "26-50%", "51-75%", "76-100%"],
+        "scoring": {"0-25%": 1, "26-50%": 2, "51-75%": 3, "76-100%": 5},
+        "rationale": "Language accessibility in pathways ensures non-English speakers can navigate care."
+      },
+      {
+        "id": "P4",
+        "question": "Does your organization assess and address transportation barriers for patients?",
+        "type": "scale",
+        "options": ["No formal process", "Assessed but not addressed", "Some solutions available", "Comprehensive transportation support"],
+        "scoring": {"No formal process": 0, "Assessed but not addressed": 1, "Some solutions available": 3, "Comprehensive transportation support": 5},
+        "rationale": "Transportation is a critical social determinant—pathways must address it."
+      },
+      {
+        "id": "P5",
+        "question": "Are appointment scheduling systems designed to accommodate working patients (evening/weekend options)?",
+        "type": "binary",
+        "options": ["Yes", "No"],
+        "scoring": {"Yes": 5, "No": 0},
+        "rationale": "Traditional business hours exclude working mothers disproportionately."
+      },
+      {
+        "id": "P6",
+        "question": "What percentage of clinical services offer telehealth options?",
+        "type": "percentage",
+        "options": ["0-25%", "26-50%", "51-75%", "76-100%"],
+        "scoring": {"0-25%": 1, "26-50%": 2, "51-75%": 3, "76-100%": 5},
+        "rationale": "Telehealth access flexibility supports working families and rural populations."
+      },
+      {
+        "id": "P7",
+        "question": "Are referral processes streamlined to minimize care gaps and delays?",
+        "type": "scale",
+        "options": ["No coordination", "Manual coordination", "Some automation", "Fully integrated system"],
+        "scoring": {"No coordination": 0, "Manual coordination": 2, "Some automation": 3, "Fully integrated system": 5},
+        "rationale": "Referral delays disproportionately affect vulnerable populations."
+      },
+      {
+        "id": "P8",
+        "question": "Does your organization have a formal process for identifying and addressing social determinants of health?",
+        "type": "binary",
+        "options": ["Yes", "No"],
+        "scoring": {"Yes": 5, "No": 0},
+        "rationale": "SDOH screening must be systematized in workflows to address equity."
+      },
+      {
+        "id": "P9",
+        "question": "What percentage of care teams include community health workers or patient navigators?",
+        "type": "percentage",
+        "options": ["0-25%", "26-50%", "51-75%", "76-100%"],
+        "scoring": {"0-25%": 1, "26-50%": 2, "51-75%": 3, "76-100%": 5},
+        "rationale": "CHWs bridge cultural and logistical gaps in care access."
+      },
+      {
+        "id": "P10",
+        "question": "Are postpartum follow-up appointments built into standard workflows?",
+        "type": "scale",
+        "options": ["No standard process", "Recommended but not required", "Scheduled but not enforced", "Scheduled with active outreach"],
+        "scoring": {"No standard process": 0, "Recommended but not required": 1, "Scheduled but not enforced": 3, "Scheduled with active outreach": 5},
+        "rationale": "Postpartum period is high-risk; proactive follow-up workflows save lives."
+      },
+      {
+        "id": "P11",
+        "question": "Does your organization coordinate care across hospital, clinic, and community settings?",
+        "type": "binary",
+        "options": ["Yes", "No"],
+        "scoring": {"Yes": 5, "No": 0},
+        "rationale": "Care coordination reduces gaps that disproportionately harm vulnerable populations."
+      },
+      {
+        "id": "P12",
+        "question": "Are high-risk patients identified and enrolled in enhanced care pathways?",
+        "type": "scale",
+        "options": ["No identification", "Identified but no enhanced pathway", "Enhanced pathway available", "Proactive enrollment and tracking"],
+        "scoring": {"No identification": 0, "Identified but no enhanced pathway": 1, "Enhanced pathway available": 3, "Proactive enrollment and tracking": 5},
+        "rationale": "Risk stratification must trigger differentiated care to improve outcomes."
+      },
+      {
+        "id": "P13",
+        "question": "Do care pathways include doula or peer support integration?",
+        "type": "binary",
+        "options": ["Yes", "No"],
+        "scoring": {"Yes": 5, "No": 0},
+        "rationale": "Doula support significantly improves outcomes, especially for communities of color."
+      },
+      {
+        "id": "P14",
+        "question": "Are patients able to schedule appointments through multiple modalities (phone, online, app, in-person)?",
+        "type": "percentage",
+        "options": ["1 modality", "2 modalities", "3 modalities", "4+ modalities"],
+        "scoring": {"1 modality": 1, "2 modalities": 2, "3 modalities": 3, "4+ modalities": 5},
+        "rationale": "Access flexibility accommodates diverse patient needs and preferences."
+      },
+      {
+        "id": "P15",
+        "question": "Does your organization have workflows for addressing missed appointments proactively?",
+        "type": "binary",
+        "options": ["Yes", "No"],
+        "scoring": {"Yes": 5, "No": 0},
+        "rationale": "Proactive outreach prevents care gaps from becoming crises."
+      },
+      {
+        "id": "P16",
+        "question": "Are interpreter services embedded in standard workflows (not just available upon request)?",
+        "type": "binary",
+        "options": ["Yes", "No"],
+        "scoring": {"Yes": 5, "No": 0},
+        "rationale": "On-request interpreters create delays; embedded services ensure equity."
+      },
+      {
+        "id": "P17",
+        "question": "What percentage of clinical protocols include equity considerations (e.g., cultural factors, SDOH)?",
+        "type": "percentage",
+        "options": ["0-25%", "26-50%", "51-75%", "76-100%"],
+        "scoring": {"0-25%": 1, "26-50%": 2, "51-75%": 3, "76-100%": 5},
+        "rationale": "Equity must be integrated into protocols, not addressed separately."
+      },
+      {
+        "id": "P18",
+        "question": "Does your organization conduct workflow analyses to identify equity barriers?",
+        "type": "scale",
+        "options": ["Never", "Reactive (when problems arise)", "Periodic reviews", "Continuous improvement process"],
+        "scoring": {"Never": 0, "Reactive (when problems arise)": 1, "Periodic reviews": 3, "Continuous improvement process": 5},
+        "rationale": "Systematic workflow analysis identifies hidden barriers to equity."
+      },
+      {
+        "id": "P19",
+        "question": "Are emergency department processes designed to identify and address maternal health emergencies?",
+        "type": "binary",
+        "options": ["Yes", "No"],
+        "scoring": {"Yes": 5, "No": 0},
+        "rationale": "ED protocols must recognize maternal warning signs across presentations."
+      },
+      {
+        "id": "P20",
+        "question": "Does your organization have a process for patients to provide feedback on care access barriers?",
+        "type": "scale",
+        "options": ["No formal process", "Surveys only", "Feedback mechanisms available", "Active solicitation and response"],
+        "scoring": {"No formal process": 0, "Surveys only": 2, "Feedback mechanisms available": 3, "Active solicitation and response": 5},
+        "rationale": "Patient voice reveals barriers invisible to administrators."
+      }
+    ]
+  },
+
+  "PEOPLE": {
+    "pillar_name": "PEOPLE - Workforce Capability & Accountability",
+    "pillar_description": "Evaluates whether workforce training, cultural competence, and accountability structures enable equitable service delivery.",
+    "questions": [
+      {
+        "id": "PE1",
+        "question": "What percentage of clinical staff have completed health equity training in the past 12 months?",
+        "type": "percentage",
+        "options": ["0-25%", "26-50%", "51-75%", "76-100%"],
+        "scoring": {"0-25%": 1, "26-50%": 2, "51-75%": 3, "76-100%": 5},
+        "rationale": "Training must be universal and current to impact care delivery."
+      },
+      {
+        "id": "PE2",
+        "question": "Does health equity training go beyond implicit bias to include actionable skills?",
+        "type": "binary",
+        "options": ["Yes", "No"],
+        "scoring": {"Yes": 5, "No": 0},
+        "rationale": "Awareness alone doesn't change practice; skills training drives behavior change."
+      },
+      {
+        "id": "PE3",
+        "question": "Are equity metrics tied to individual or team performance evaluations?",
+        "type": "binary",
+        "options": ["Yes", "No"],
+        "scoring": {"Yes": 5, "No": 0},
+        "rationale": "Accountability requires consequences; performance metrics drive behavior."
+      },
+      {
+        "id": "PE4",
+        "question": "What percentage of leadership positions (VP and above) have equity included in their job descriptions?",
+        "type": "percentage",
+        "options": ["0-25%", "26-50%", "51-75%", "76-100%"],
+        "scoring": {"0-25%": 1, "26-50%": 2, "51-75%": 3, "76-100%": 5},
+        "rationale": "Leadership accountability starts with explicit responsibility in role definitions."
+      },
+      {
+        "id": "PE5",
+        "question": "Does your organization employ community health workers from the communities you serve?",
+        "type": "scale",
+        "options": ["No CHWs", "CHWs employed but not from community", "Some from community", "Representative workforce"],
+        "scoring": {"No CHWs": 0, "CHWs employed but not from community": 2, "Some from community": 3, "Representative workforce": 5},
+        "rationale": "Lived experience and cultural connection are critical to equity work."
+      },
+      {
+        "id": "PE6",
+        "question": "What percentage of patient-facing staff are bilingual or have immediate access to professional interpreters?",
+        "type": "percentage",
+        "options": ["0-25%", "26-50%", "51-75%", "76-100%"],
+        "scoring": {"0-25%": 1, "26-50%": 2, "51-75%": 3, "76-100%": 5},
+        "rationale": "Language capacity must be widespread, not concentrated in specific units."
+      },
+      {
+        "id": "PE7",
+        "question": "Does your organization have a Chief Equity Officer or equivalent senior leadership position?",
+        "type": "binary",
+        "options": ["Yes", "No"],
+        "scoring": {"Yes": 5, "No": 0},
+        "rationale": "Senior leadership signals priority and enables resource allocation."
+      },
+      {
+        "id": "PE8",
+        "question": "Does the Chief Equity Officer (or equivalent) have budget authority?",
+        "type": "binary",
+        "options": ["Yes", "No"],
+        "scoring": {"Yes": 5, "No": 0},
+        "rationale": "Responsibility without resources is performative, not operational."
+      },
+      {
+        "id": "PE9",
+        "question": "Are front-line staff empowered to escalate equity concerns without retaliation?",
+        "type": "binary",
+        "options": ["Yes", "No"],
+        "scoring": {"Yes": 5, "No": 0},
+        "rationale": "Psychological safety enables identification and resolution of equity issues."
+      },
+      {
+        "id": "PE10",
+        "question": "What percentage of clinical staff can articulate your organization's equity goals?",
+        "type": "percentage",
+        "options": ["0-25%", "26-50%", "51-75%", "76-100%"],
+        "scoring": {"0-25%": 1, "26-50%": 2, "51-75%": 3, "76-100%": 5},
+        "rationale": "Equity goals must be widely known to influence daily decisions."
+      },
+      {
+        "id": "PE11",
+        "question": "Does your organization provide ongoing cultural humility training (not one-time)?",
+        "type": "binary",
+        "options": ["Yes", "No"],
+        "scoring": {"Yes": 5, "No": 0},
+        "rationale": "Cultural competence requires continuous learning, not single events."
+      },
+      {
+        "id": "PE12",
+        "question": "Are doulas or birth support specialists employed and integrated into care teams?",
+        "type": "scale",
+        "options": ["No doulas", "Available upon request", "Offered to high-risk patients", "Universal access"],
+        "scoring": {"No doulas": 0, "Available upon request": 2, "Offered to high-risk patients": 3, "Universal access": 5},
+        "rationale": "Doula support improves outcomes, especially for communities of color."
+      },
+      {
+        "id": "PE13",
+        "question": "Does your workforce demographics reflect the patient population you serve?",
+        "type": "scale",
+        "options": ["Not representative", "Somewhat representative", "Mostly representative", "Fully representative"],
+        "scoring": {"Not representative": 1, "Somewhat representative": 2, "Mostly representative": 3, "Fully representative": 5},
+        "rationale": "Representative workforce builds trust and cultural understanding."
+      },
+      {
+        "id": "PE14",
+        "question": "Are equity champions or liaisons designated within clinical departments?",
+        "type": "binary",
+        "options": ["Yes", "No"],
+        "scoring": {"Yes": 5, "No": 0},
+        "rationale": "Distributed leadership embeds equity work throughout the organization."
+      },
+      {
+        "id": "PE15",
+        "question": "What percentage of new hires receive equity training during onboarding?",
+        "type": "percentage",
+        "options": ["0-25%", "26-50%", "51-75%", "76-100%"],
+        "scoring": {"0-25%": 1, "26-50%": 2, "51-75%": 3, "76-100%": 5},
+        "rationale": "Equity orientation must be universal from day one."
+      },
+      {
+        "id": "PE16",
+        "question": "Does leadership regularly communicate about equity performance and goals?",
+        "type": "scale",
+        "options": ["Never", "Annually", "Quarterly", "Monthly or more"],
+        "scoring": {"Never": 0, "Annually": 2, "Quarterly": 3, "Monthly or more": 5},
+        "rationale": "Frequent communication signals priority and maintains focus."
+      },
+      {
+        "id": "PE17",
+        "question": "Are patient advocates or navigators available to help patients understand and access services?",
+        "type": "binary",
+        "options": ["Yes", "No"],
+        "scoring": {"Yes": 5, "No": 0},
+        "rationale": "Navigation support reduces complexity barriers disproportionately affecting vulnerable populations."
+      },
+      {
+        "id": "PE18",
+        "question": "Does your organization conduct stay interviews or exit interviews to understand equity-related workforce concerns?",
+        "type": "binary",
+        "options": ["Yes", "No"],
+        "scoring": {"Yes": 5, "No": 0},
+        "rationale": "Staff retention and satisfaction correlate with equity culture and effectiveness."
+      },
+      {
+        "id": "PE19",
+        "question": "Are clinicians trained to recognize and address social determinants of health?",
+        "type": "percentage",
+        "options": ["0-25%", "26-50%", "51-75%", "76-100%"],
+        "scoring": {"0-25%": 1, "26-50%": 2, "51-75%": 3, "76-100%": 5},
+        "rationale": "SDOH awareness must be universal clinical competency."
+      },
+      {
+        "id": "PE20",
+        "question": "Does your organization have a formal mentorship or sponsorship program for staff from underrepresented backgrounds?",
+        "type": "binary",
+        "options": ["Yes", "No"],
+        "scoring": {"Yes": 5, "No": 0},
+        "rationale": "Leadership pipeline diversity requires intentional development support."
+      }
+    ]
+  },
+
+  "TECHNOLOGY": {
+    "pillar_name": "TECHNOLOGY - Data Infrastructure & Systems",
+    "pillar_description": "Evaluates whether data systems, monitoring tools, and technology infrastructure enable measurement, accountability, and improvement.",
+    "questions": [
+      {
+        "id": "T1",
+        "question": "Can your EHR system stratify clinical outcomes by race and ethnicity in real-time?",
+        "type": "binary",
+        "options": ["Yes", "No"],
+        "scoring": {"Yes": 5, "No": 0},
+        "rationale": "Real-time stratification enables immediate intervention on emerging disparities."
+      },
+      {
+        "id": "T2",
+        "question": "What percentage of patients have race/ethnicity data accurately recorded in the EHR?",
+        "type": "percentage",
+        "options": ["0-25%", "26-50%", "51-75%", "76-100%"],
+        "scoring": {"0-25%": 0, "26-50%": 1, "51-75%": 3, "76-100%": 5},
+        "rationale": "Missing data prevents disparity identification; completeness is foundational."
+      },
+      {
+        "id": "T3",
+        "question": "Does your organization have automated alerts for high-risk maternal health conditions?",
+        "type": "binary",
+        "options": ["Yes", "No"],
+        "scoring": {"Yes": 5, "No": 0},
+        "rationale": "Automated alerts enable timely intervention on preventable complications."
+      },
+      {
+        "id": "T4",
+        "question": "Can providers view a patient's complete care history across all settings (hospital, clinic, community)?",
+        "type": "scale",
+        "options": ["No integration", "Partial integration", "Most settings integrated", "Complete integration"],
+        "scoring": {"No integration": 0, "Partial integration": 2, "Most settings integrated": 3, "Complete integration": 5},
+        "rationale": "Care coordination requires information continuity across settings."
+      },
+      {
+        "id": "T5",
+        "question": "Does your patient portal offer language options beyond English?",
+        "type": "scale",
+        "options": ["English only", "1-2 languages", "3-5 languages", "6+ languages"],
+        "scoring": {"English only": 0, "1-2 languages": 2, "3-5 languages": 3, "6+ languages": 5},
+        "rationale": "Digital health equity requires multilingual technology access."
+      },
+      {
+        "id": "T6",
+        "question": "What percentage of patients are enrolled in the patient portal?",
+        "type": "percentage",
+        "options": ["0-25%", "26-50%", "51-75%", "76-100%"],
+        "scoring": {"0-25%": 1, "26-50%": 2, "51-75%": 3, "76-100%": 5},
+        "rationale": "Portal adoption enables patient engagement and self-management."
+      },
+      {
+        "id": "T7",
+        "question": "Does your organization track and report equity metrics to leadership monthly or more frequently?",
+        "type": "binary",
+        "options": ["Yes", "No"],
+        "scoring": {"Yes": 5, "No": 0},
+        "rationale": "Frequent reporting maintains leadership focus and enables rapid response."
+      },
+      {
+        "id": "T8",
+        "question": "Can your analytics team generate disparity reports without manual data extraction?",
+        "type": "binary",
+        "options": ["Yes", "No"],
+        "scoring": {"Yes": 5, "No": 0},
+        "rationale": "Automated reporting enables scalability and timeliness of equity analysis."
+      },
+      {
+        "id": "T9",
+        "question": "Does your organization use predictive analytics to identify high-risk patients?",
+        "type": "scale",
+        "options": ["No predictive analytics", "Under development", "Limited use", "Widespread use"],
+        "scoring": {"No predictive analytics": 0, "Under development": 2, "Limited use": 3, "Widespread use": 5},
+        "rationale": "Predictive models enable proactive intervention before crises occur."
+      },
+      {
+        "id": "T10",
+        "question": "Are social determinants of health systematically collected in the EHR?",
+        "type": "scale",
+        "options": ["Not collected", "Collected inconsistently", "Collected systematically", "Collected and acted upon"],
+        "scoring": {"Not collected": 0, "Collected inconsistently": 1, "Collected systematically": 3, "Collected and acted upon": 5},
+        "rationale": "SDOH data collection must be systematic to enable action."
+      },
+      {
+        "id": "T11",
+        "question": "Does your telehealth platform meet accessibility standards (ADA, language, broadband limitations)?",
+        "type": "binary",
+        "options": ["Yes", "No"],
+        "scoring": {"Yes": 5, "No": 0},
+        "rationale": "Telehealth equity requires accessible technology design."
+      },
+      {
+        "id": "T12",
+        "question": "Can patients schedule appointments online in their preferred language?",
+        "type": "binary",
+        "options": ["Yes", "No"],
+        "scoring": {"Yes": 5, "No": 0},
+        "rationale": "Language barriers in scheduling systems create access inequities."
+      },
+      {
+        "id": "T13",
+        "question": "Does your organization have a data governance process ensuring equity in algorithm design and deployment?",
+        "type": "binary",
+        "options": ["Yes", "No"],
+        "scoring": {"Yes": 5, "No": 0},
+        "rationale": "Algorithmic bias perpetuates disparities; governance prevents harm."
+      },
+      {
+        "id": "T14",
+        "question": "What percentage of clinical decision support tools have been tested for equity impact?",
+        "type": "percentage",
+        "options": ["0-25%", "26-50%", "51-75%", "76-100%"],
+        "scoring": {"0-25%": 0, "26-50%": 2, "51-75%": 3, "76-100%": 5},
+        "rationale": "Untested algorithms may embed and amplify existing biases."
+      },
+      {
+        "id": "T15",
+        "question": "Can your organization track patient outcomes longitudinally (not just during encounters)?",
+        "type": "binary",
+        "options": ["Yes", "No"],
+        "scoring": {"Yes": 5, "No": 0},
+        "rationale": "Longitudinal tracking reveals disparities that episode-based analysis misses."
+      },
+      {
+        "id": "T16",
+        "question": "Does your organization share data with community partners for population health improvement?",
+        "type": "scale",
+        "options": ["No data sharing", "Ad hoc sharing", "Regular sharing", "Integrated data ecosystem"],
+        "scoring": {"No data sharing": 0, "Ad hoc sharing": 2, "Regular sharing": 3, "Integrated data ecosystem": 5},
+        "rationale": "Community partnerships require data sharing for collective impact."
+      },
+      {
+        "id": "T17",
+        "question": "Are patients able to access their health records through mobile devices?",
+        "type": "binary",
+        "options": ["Yes", "No"],
+        "scoring": {"Yes": 5, "No": 0},
+        "rationale": "Mobile access accommodates populations without computer access."
+      },
+      {
+        "id": "T18",
+        "question": "Does your organization have a process for evaluating and addressing technology access barriers?",
+        "type": "binary",
+        "options": ["Yes", "No"],
+        "scoring": {"Yes": 5, "No": 0},
+        "rationale": "Digital divide assessment must be systematic, not assumed."
+      },
+      {
+        "id": "T19",
+        "question": "Can your organization generate equity dashboards for different levels of leadership (board, C-suite, managers)?",
+        "type": "scale",
+        "options": ["No dashboards", "Annual reports only", "Quarterly dashboards", "Real-time dashboards"],
+        "scoring": {"No dashboards": 0, "Annual reports only": 2, "Quarterly dashboards": 3, "Real-time dashboards": 5},
+        "rationale": "Tailored dashboards enable accountability at every leadership level."
+      },
+      {
+        "id": "T20",
+        "question": "Does your IT procurement process include equity impact assessments for new technology?",
+        "type": "binary",
+        "options": ["Yes", "No"],
+        "scoring": {"Yes": 5, "No": 0},
+        "rationale": "Equity must be considered before technology deployment, not after."
+      }
+    ]
+  }
+}
