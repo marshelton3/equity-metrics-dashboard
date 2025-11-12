@@ -189,14 +189,15 @@ equity-metrics-dashboard/
 
 ---
 
-##  Technologies Used
+## 🛠️ Technologies Used
 
 - **Python 3.12**: Core programming language
 - **pandas**: Data manipulation and analysis
 - **matplotlib & seaborn**: Data visualization
 - **NumPy**: Numerical computing
 - **Jupyter Notebook**: Interactive analysis and documentation
-
+- **JSON**: Structured data storage for assessment framework
+- **Modular architecture**: Reusable functions in `/src` and `/framework` modules
 ---
 
 ##  Methodology
@@ -298,3 +299,5 @@ Disparity Ratio = (Group MMR / White NH MMR)
 
 **Status**: 
  ✅ Project 1 Complete
+ ✅ Project 2 Complete
+ ✅ Project 3 Complete
