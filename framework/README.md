@@ -191,18 +191,26 @@ Recommended Actions:
 
 ---
 
-## FRAMEWORK EVIDENCE BASE
+##  FRAMEWORK EVIDENCE BASE
 
-**Validated through analysis of:**
-- 6,214 maternal deaths (2018-2022)
-- CDC WONDER data across all 50 states
-- Natural experiment of Medicaid postpartum extensions
-- COVID-19 policy stress test
+**Developed from analysis of:**
+- **6,214 maternal deaths** (2018-2022, CDC WONDER Multiple Cause of Death data)
+- **19.3 million births** (CDC WONDER Natality data)
+- **5-year period** spanning pre-COVID baseline (2018-2019) and pandemic impact (2020-2022)
+- **All 50 states** + District of Columbia
+- **Racial/ethnic stratification** across 6 categories
 
-**Key Finding:**
-Organizations with infrastructure scores >60% saw 30-50% improvement from policy changes. Organizations with scores <40% saw <10% improvement despite identical policy implementation.
+**Key Evidence:**
+- COVID-19 served as natural experiment: universal policy expansion with differential outcomes
+- Disparities WIDENED during 2020-2021 despite emergency coverage expansion
+- AIAN maternal mortality increased 192%, Black increased 86%, Hispanic increased 141%
+- Demonstrated that policy coverage ≠ equitable outcomes without operational infrastructure
 
-**Implication:** Operational infrastructure predicts policy effectiveness.
+**Framework Status:**
+- Currently validated through 2018-2022 analysis
+- Designed for ongoing validation as 2023-2024 data becomes available (CDC release expected late 2025/early 2026)
+- Assessment tool ready for organizational implementation
+- Future validation will test whether infrastructure predicts policy effectiveness (Medicaid postpartum extension outcomes)
 
 ---
 
@@ -276,7 +284,7 @@ python3 framework/scoring_algorithm.py
 - 60 questions across 3 pillars
 - Automated scoring algorithm
 - Sample assessment report
-- Evidence base from 2018-2024 maternal mortality analysis
+- Evidence base from 2018-2022 maternal mortality analysis
 
 **v1.1 (Planned: Q1 2026)**
 - Web-based self-assessment tool

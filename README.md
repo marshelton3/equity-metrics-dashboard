@@ -14,7 +14,9 @@ Using data from the CDC WONDER database (2018-2022), we analyzed **6,214 materna
 
 ---
 
-##  Key Findings
+## 🔍 Key Findings (2018-2022)
+
+Analysis of **6,214 maternal deaths** and **19.3 million births** revealed stark and widening disparities:
 
 ### National Disparities (2018-2022)
 
@@ -73,49 +75,30 @@ This analysis captures the critical pre-intervention baseline, allowing future a
 
 ---
 
-##  Operational Equity Framework
-
-This analysis validates the **Operational Equity Framework**, which suggests that health equity requires three equal components:
-
-### 🔄 **PROCESS**
-Care workflows and service delivery pathways that eliminate systemic barriers
-
-### 👥 **PEOPLE**
-Workforce training, accountability structures, and cultural competence
-
-### 💻 **TECHNOLOGY**
-Data infrastructure, analytics capability, and monitoring systems
-
-**Key Insight**: Policy coverage expansions (Medicaid, telehealth) occurred during COVID-19, but communities lacking robust operational infrastructure experienced the most severe increases in maternal mortality.
-
-**Conclusion**: Policy declarations ≠ Operational implementation
-
----
-
 ##  Project Structure
 ```
 equity-metrics-dashboard/
-├── notebooks/
-│   ├── 01_initial_exploration.ipynb    # National disparity analysis
-│   └── 02_temporal_trends.ipynb        # Temporal trends & COVID impact
-├── src/
-│   ├── analysis.py                     # Reusable analytics toolkit
-│   └── README.md                       # Module documentation
-├── framework/                          # NEW - Project 3
-│   ├── assessment_questions.json       # 60-question assessment
-│   ├── scoring_algorithm.py            # Automated scoring & reporting
-│   ├── framework_methodology.md        # Theoretical foundation
-│   ├── sample_assessment_report.md     # Example deliverable
-│   └── README.md                       # Assessment tool guide
-├── data/
-│   └── raw/                            # CDC WONDER data (not in repo)
-├── outputs/
-│   ├── comprehensive_dashboard.png
-│   ├── temporal_trends_by_race.png
-│   └── disparity_dashboard_complete.png
-├── docs/                               # Documentation (private notes)
-├── requirements.txt                    # Python dependencies
-└── README.md                           # This file
+── notebooks/
+   ── 01_initial_exploration.ipynb    # National disparity analysis
+   ── 02_temporal_trends.ipynb        # Temporal trends & COVID impact
+── src/
+   ── analysis.py                     # Reusable analytics toolkit
+   ── README.md                       # Module documentation
+── framework/                          #  **Project 3**
+   ── assessment_questions.json       # 60-question assessment
+   ── scoring_algorithm.py            # Automated scoring & reporting
+   ── framework_methodology.md        # Theoretical foundation
+   ── sample_assessment_report.md     # Example deliverable
+   ── README.md                       # Assessment tool guide
+── data/
+   ── raw/                            # CDC WONDER data (not in repo)
+── outputs/
+   ── comprehensive_dashboard.png
+   ── temporal_trends_by_race.png
+   ── disparity_dashboard_complete.png
+── docs/                               # Documentation (private notes)
+── requirements.txt                    # Python dependencies
+── README.md                           # This file
 ```
 
 ## Technologies Used
@@ -189,16 +172,6 @@ equity-metrics-dashboard/
 
 ---
 
-## 🛠️ Technologies Used
-
-- **Python 3.12**: Core programming language
-- **pandas**: Data manipulation and analysis
-- **matplotlib & seaborn**: Data visualization
-- **NumPy**: Numerical computing
-- **Jupyter Notebook**: Interactive analysis and documentation
-- **JSON**: Structured data storage for assessment framework
-- **Modular architecture**: Reusable functions in `/src` and `/framework` modules
----
 
 ##  Methodology
 
@@ -226,28 +199,53 @@ Disparity Ratio = (Group MMR / White NH MMR)
 
 **Project 3 delivers a professional assessment tool** for evaluating health equity operational infrastructure.
 
+This analysis validates the **Operational Equity Framework**: health equity requires operational infrastructure across three equal pillars, not just policy declarations.
+
 ### Three Pillars:
-1. **PROCESS**: Care workflows and service delivery pathways
-2. **PEOPLE**: Workforce capability and accountability
-3. **TECHNOLOGY**: Data infrastructure and monitoring systems
+
+**🔄 PROCESS**: Care workflows and service delivery pathways
+- Eliminates systemic barriers in how care is delivered
+- Includes language access, transportation, scheduling flexibility
+- Ensures policies translate to accessible services
+
+**👥 PEOPLE**: Workforce capability, training, and accountability
+- Cultural competency and representative workforce
+- Equity metrics tied to performance
+- Community health workers and peer support
+
+**💻 TECHNOLOGY**: Data infrastructure and monitoring systems
+- Real-time outcome stratification by race/ethnicity
+- Automated risk alerts and intervention triggers
+- Analytics capability to identify and address gaps
+
+### Key Insight from 2018-2022 Analysis:
+
+During COVID-19, **policy coverage expanded universally** (emergency Medicaid, telehealth reimbursement), but communities lacking operational infrastructure experienced the **worst increases** in maternal mortality:
+- AIAN: +192% increase
+- Black: +86% increase  
+- Hispanic: +141% increase
+
+**Conclusion**: Policy declarations ≠ Operational implementation
 
 ### Framework Products:
-- 60-question comprehensive assessment
-- Automated scoring algorithm
-- Gap analysis and recommendations
-- Evidence-based from 2018-2024 maternal mortality research
+- **60-question comprehensive assessment** - Evaluates organizational infrastructure
+- **Automated scoring algorithm** - Identifies priority gaps
+- **Gap analysis and recommendations** - Actionable implementation roadmap
+- **Evidence-based methodology** - Validated through 2018-2022 maternal mortality analysis
+- **Policy readiness evaluation** - Predicts organizational capacity for equity initiatives
 
-**Learn more:** See `/framework` directory for complete documentation.
+**Learn more:** See [`/framework`](framework/) directory for complete documentation.
 
-**Use cases:**
+### Use Cases:
 - Health system equity assessments ($5K-15K)
 - Implementation roadmap development
 - Policy effectiveness evaluation
 - Organizational benchmarking
+- Pre/post-intervention measurement
 
 ##  Future Work
 
-**Upcoming analyses (Projects 2-6):**
+**Upcoming analyses (Projects 4-6):**
 
 - **Project 4**: State-level geographic analysis and policy context
 - **Project 5**: Medicaid expansion impact and policy effectiveness
@@ -258,7 +256,13 @@ Disparity Ratio = (Group MMR / White NH MMR)
 ##  Publications & Outputs
 
 **In Development:**
-- Policy brief: "Operational Equity Framework for Maternal Health"
+- Paper 1: "Evaluating Medicaid Postpartum Extensions: A Natural Experiment (2018-2024)"
+- Paper 2: "Why Some States Succeeded While Others Failed: The Role of Operational Infrastructure"
+- Paper 3: "The Operational Equity Framework: Evidence from Maternal Health Policy Implementation"
+- Op-Ed: "I Analyzed What Happened After Medicaid Extended Postpartum Coverage. Here's What Worked."
+- Policy Brief 1: "State Scorecard" from Project 4, Title: "Maternal Health Equity by State: Which States Are Succeeding?"
+- Policy Brief 2: "Implementation Guide" from Project 5, Title: "Making Medicaid Postpartum Extensions Work: Implementation Lessons from 2022-2024"
+- Policy Brief 3: "Framework Application", Title: Title: "The Operational Equity Framework: A Guide for Health Systems"
 - Newsletter series: [Isosalus](https://isosalus.substack.com)
 
 ---
@@ -268,7 +272,11 @@ Disparity Ratio = (Group MMR / White NH MMR)
 **Marshawn Shelton, MPH, PMP, CCMP**
 
 - Founder, [Isosalus](https://isosalus.com) - Operationalizing Health Equity
-- Former health system transformation roles: Grady, Penn Medicine, Piedmont Healthcare, Mercy
+- Former health system transformation roles: Change Manager, **Mercy St. Louis**
+AI Project Manager, Operations Transformation, **Piedmont Healthcare**
+Senior Process Improvement Advisor, Perioperative Services, **Grady Health System**
+Project Manager, Clinical Effectiveness & Quality Improvement, **Penn Medicine**
+Management Consultant, EHR Modernization, **Guidehouse**
 
 **Connect:**
 - LinkedIn: [linkedin.com/in/marshawnshelton](https://linkedin.com/in/marshawnshelton)

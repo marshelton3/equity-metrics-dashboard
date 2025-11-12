@@ -4,6 +4,8 @@ Operational Equity Framework - Scoring Algorithm
 This module calculates scores from framework assessments and generates
 interpretive reports.
 
+Evidence base: 6,214 maternal deaths analyzed (2018-2022, CDC WONDER data)
+
 Author: Marshawn Shelton, MPH, PMP, CCMP
 Organization: Isosalus
 """

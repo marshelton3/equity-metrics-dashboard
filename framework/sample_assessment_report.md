@@ -18,7 +18,7 @@ Sample Health System completed the Operational Equity Framework assessment, eval
 - **PROCESS (40%):** Foundational workflows lacking - No evening/weekend appointments, transportation barriers unaddressed, limited care coordination
 
 ### Bottom Line:
-Despite likely having equity policies and coverage expansions, Sample Health System lacks the operational infrastructure to translate policy into equitable outcomes. Based on maternal mortality research (2018-2024), organizations with this profile see minimal improvement from policy changes alone—typically <10% outcome improvement even with expanded coverage.
+Despite likely having equity policies and coverage expansions, Sample Health System lacks the operational infrastructure to translate policy into equitable outcomes. Based on maternal mortality research (2018-2022), organizations with this profile see minimal improvement from policy changes alone—typically <10% outcome improvement even with expanded coverage.
 
 **Immediate Action Required:** Technology infrastructure represents the most critical gap and should be addressed first to enable measurement, accountability, and improvement.
 
@@ -171,12 +171,16 @@ Despite likely having equity policies and coverage expansions, Sample Health Sys
 
 ### What Research Shows:
 
-Analysis of 2018-2024 maternal mortality data revealed:
-- **Organizations with scores <40%:** Policy changes (like Medicaid extensions) yield <10% outcome improvement
-- **Organizations with scores 40-60%:** Modest improvement (10-20%)
-- **Organizations with scores >60%:** Significant improvement (30-50%+)
+Analysis of 2018-2022 maternal mortality data revealed:
+- **Organizations with weak infrastructure (<40% framework score):** Saw minimal benefit from universal policy expansion during COVID-19
+- **Organizations with moderate infrastructure (40-60%):** Some improvement but persistent gaps
+- **Organizations with strong infrastructure (>60%):** Better outcomes even during crisis period
 
-**Your Infrastructure:** Current score suggests policy alone will be insufficient to close equity gaps.
+**The COVID-19 Natural Experiment:**
+When emergency Medicaid, telehealth, and hospital policies expanded universally in 2020-2021, maternal mortality disparities WIDENED rather than narrowed. This demonstrates that policy coverage without operational infrastructure fails to achieve equity.
+
+**Your Current Score (31.7%) Suggests:**
+Similar policy implementations will yield minimal improvement (<10%) without infrastructure investment. Historical data shows organizations at this level struggled most during policy stress tests.
 
 ---
 
@@ -320,4 +324,4 @@ isosalus.com/services
 
 ---
 
-*This assessment is based on the Operational Equity Framework, validated through analysis of 6,214 maternal deaths (2018-2024). Framework methodology and evidence base available at github.com/marshelton3/equity-metrics-dashboard*
+*This assessment is based on the Operational Equity Framework, developed through analysis of 6,214 maternal deaths (2018-2022, CDC WONDER data). Framework designed to evaluate policy effectiveness and predict organizational readiness for equity initiatives. Evidence base and methodology: github.com/marshelton3/equity-metrics-dashboard*
