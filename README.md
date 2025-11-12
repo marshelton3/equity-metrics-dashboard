@@ -95,31 +95,38 @@ Data infrastructure, analytics capability, and monitoring systems
 ##  Project Structure
 ```
 equity-metrics-dashboard/
-── notebooks/
-   ── 01_initial_exploration.ipynb    # National disparity analysis
-   ── 02_temporal_trends.ipynb        # Temporal trends & COVID impact
-── src/
-   ── analysis.py                     # Reusable analytics toolkit  NEW
-   ── README.md                       # Module documentation NEW
-── data/
-   ── raw/                            # CDC WONDER data (not in repo)
-── outputs/
-   ── comprehensive_dashboard.png
-   ── temporal_trends_by_race.png
-   ── disparity_dashboard_complete.png
-── docs/                               # Documentation (private notes)
-── requirements.txt                    # Python dependencies
-── README.md                           # This file
+├── notebooks/
+│   ├── 01_initial_exploration.ipynb    # National disparity analysis
+│   └── 02_temporal_trends.ipynb        # Temporal trends & COVID impact
+├── src/
+│   ├── analysis.py                     # Reusable analytics toolkit
+│   └── README.md                       # Module documentation
+├── framework/                          # NEW - Project 3
+│   ├── assessment_questions.json       # 60-question assessment
+│   ├── scoring_algorithm.py            # Automated scoring & reporting
+│   ├── framework_methodology.md        # Theoretical foundation
+│   ├── sample_assessment_report.md     # Example deliverable
+│   └── README.md                       # Assessment tool guide
+├── data/
+│   └── raw/                            # CDC WONDER data (not in repo)
+├── outputs/
+│   ├── comprehensive_dashboard.png
+│   ├── temporal_trends_by_race.png
+│   └── disparity_dashboard_complete.png
+├── docs/                               # Documentation (private notes)
+├── requirements.txt                    # Python dependencies
+└── README.md                           # This file
 ```
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python 3.12**: Core programming language
 - **pandas**: Data manipulation and analysis
 - **matplotlib & seaborn**: Data visualization
 - **NumPy**: Numerical computing
 - **Jupyter Notebook**: Interactive analysis and documentation
-- **Modular architecture**: Reusable functions in `/src` module
+- **JSON**: Structured data storage for assessment framework
+- **Modular architecture**: Reusable functions in `/src` and `/framework` modules
 
 ---
 
@@ -214,12 +221,33 @@ Disparity Ratio = (Group MMR / White NH MMR)
 
 ---
 
+## 🎯 The Operational Equity Framework
+
+**Project 3 delivers a professional assessment tool** for evaluating health equity operational infrastructure.
+
+### Three Pillars:
+1. **PROCESS**: Care workflows and service delivery pathways
+2. **PEOPLE**: Workforce capability and accountability
+3. **TECHNOLOGY**: Data infrastructure and monitoring systems
+
+### Framework Products:
+- 60-question comprehensive assessment
+- Automated scoring algorithm
+- Gap analysis and recommendations
+- Evidence-based from 2018-2024 maternal mortality research
+
+**Learn more:** See `/framework` directory for complete documentation.
+
+**Use cases:**
+- Health system equity assessments ($5K-15K)
+- Implementation roadmap development
+- Policy effectiveness evaluation
+- Organizational benchmarking
+
 ##  Future Work
 
 **Upcoming analyses (Projects 2-6):**
 
-- **Project 2**: Modular code extraction and reusable analytics toolkit
-- **Project 3**: Operational equity framework assessment tool
 - **Project 4**: State-level geographic analysis and policy context
 - **Project 5**: Medicaid expansion impact and policy effectiveness
 - **Project 6**: Predictive modeling and risk stratification
@@ -229,9 +257,8 @@ Disparity Ratio = (Group MMR / White NH MMR)
 ##  Publications & Outputs
 
 **In Development:**
-- Peer-reviewed manuscript: "American Indian and Alaska Native Maternal Mortality: The Hidden Crisis"
 - Policy brief: "Operational Equity Framework for Maternal Health"
-- Newsletter series: [Isosalus Research](https://isosalus.substack.com)
+- Newsletter series: [Isosalus](https://isosalus.substack.com)
 
 ---
 
