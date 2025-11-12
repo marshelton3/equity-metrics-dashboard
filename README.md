@@ -84,7 +84,7 @@ equity-metrics-dashboard/
 ── src/
    ── analysis.py                     # Reusable analytics toolkit
    ── README.md                       # Module documentation
-── framework/                          #  **Project 3**
+── framework/                         # Project 3
    ── assessment_questions.json       # 60-question assessment
    ── scoring_algorithm.py            # Automated scoring & reporting
    ── framework_methodology.md        # Theoretical foundation
@@ -260,10 +260,10 @@ During COVID-19, **policy coverage expanded universally** (emergency Medicaid, t
 - Paper 2: "Why Some States Succeeded While Others Failed: The Role of Operational Infrastructure"
 - Paper 3: "The Operational Equity Framework: Evidence from Maternal Health Policy Implementation"
 - Op-Ed: "I Analyzed What Happened After Medicaid Extended Postpartum Coverage. Here's What Worked."
-- Policy Brief 1: "State Scorecard" from Project 4, Title: "Maternal Health Equity by State: Which States Are Succeeding?"
-- Policy Brief 2: "Implementation Guide" from Project 5, Title: "Making Medicaid Postpartum Extensions Work: Implementation Lessons from 2022-2024"
-- Policy Brief 3: "Framework Application", Title: Title: "The Operational Equity Framework: A Guide for Health Systems"
-- Newsletter series: [Isosalus](https://isosalus.substack.com)
+- Policy Brief 1: "Maternal Health Equity by State: Which States Are Succeeding?"
+- Policy Brief 2: "Making Medicaid Postpartum Extensions Work: Implementation Lessons from 2022-2024"
+- Policy Brief 3: "The Operational Equity Framework: A Guide for Health Systems"
+- Newsletter series 
 
 ---
 
@@ -272,11 +272,12 @@ During COVID-19, **policy coverage expanded universally** (emergency Medicaid, t
 **Marshawn Shelton, MPH, PMP, CCMP**
 
 - Founder, [Isosalus](https://isosalus.com) - Operationalizing Health Equity
-- Former health system transformation roles: Change Manager, **Mercy St. Louis**
-AI Project Manager, Operations Transformation, **Piedmont Healthcare**
-Senior Process Improvement Advisor, Perioperative Services, **Grady Health System**
-Project Manager, Clinical Effectiveness & Quality Improvement, **Penn Medicine**
-Management Consultant, EHR Modernization, **Guidehouse**
+- Former health system transformation roles: 
+   - Change Manager, **Mercy St. Louis**
+   - AI Project Manager, Operations Transformation, **Piedmont Healthcare**
+   - Senior Process Improvement Advisor, Perioperative Services, **Grady Health System**
+   - Project Manager, Clinical Effectiveness & Quality Improvement, **Penn Medicine**
+   - Management Consultant, EHR Modernization, **Guidehouse**
 
 **Connect:**
 - LinkedIn: [linkedin.com/in/marshawnshelton](https://linkedin.com/in/marshawnshelton)
