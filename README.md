@@ -267,6 +267,7 @@ During COVID-19, **policy coverage expanded universally** (emergency Medicaid, t
 - Policy Brief 3: Framework Application
    - Title: "The Operational Equity Framework: A Guide for Health Systems"
 
+
 - Op-Ed: "I Analyzed What Happened After Medicaid Extended Postpartum Coverage. Here's What Worked."
 
 ---
