@@ -1,7 +1,8 @@
 # Ignore raw and processed data files
 data/raw/*.csv
 data/raw/*.txt
-data/processed/*.csv
+
+# data/processed/*.csv  ← Now processed data will be tracked
 
 # Ignore virtual environment directories
 __pycache__/
