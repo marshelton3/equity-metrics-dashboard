@@ -259,14 +259,14 @@ During COVID-19, **policy coverage expanded universally** (emergency Medicaid, t
 - Paper 1: "Evaluating Medicaid Postpartum Extensions: A Natural Experiment (2018-2024)"
 - Paper 2: "Why Some States Succeeded While Others Failed: The Role of Operational Infrastructure"
 - Paper 3: "The Operational Equity Framework: Evidence from Maternal Health Policy Implementation"
----
+
 - Policy Brief 1: State Scorecard (From Project 4)
    - Title: "Maternal Health Equity by State: Which States Are Succeeding?"
 - Policy Brief 2: Implementation Guide (From Project 5)
    - Title: "Making Medicaid Postpartum Extensions Work: Implementation Lessons from 2022-2024"
 - Policy Brief 3: Framework Application
-   - Ttile: "The Operational Equity Framework: A Guide for Health Systems"
----
+   - Title: "The Operational Equity Framework: A Guide for Health Systems"
+
 - Op-Ed: "I Analyzed What Happened After Medicaid Extended Postpartum Coverage. Here's What Worked."
 
 ---
