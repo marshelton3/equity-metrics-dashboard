@@ -1,5 +1,8 @@
 # Equity Metrics Dashboard: Maternal Mortality Analysis & OE-3PI Framework™ Validation
 
+> Framework for assessing organizational readiness to implement health 
+equity initiatives. Validated using state maternal mortality outcomes.
+
 **A comprehensive analysis of maternal mortality trends (2018-2023) and validation of the Operational Equity - Three Pillars Implementation (OE-3PI) Framework™**
 
 ---
