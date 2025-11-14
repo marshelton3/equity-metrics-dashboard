@@ -340,5 +340,5 @@ Founder, Isosalus
 ---
 
 *Last Updated: November 14, 2025*
-- *Research Status: Analysis Complete
-- *Publications In Development
+- Research Status: **Analysis Complete**
+- **Publications In Development**
