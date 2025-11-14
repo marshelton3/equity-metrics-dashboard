@@ -277,7 +277,7 @@ python3 framework/scoring_algorithm.py
 
 ---
 
-## 🔄 VERSION HISTORY
+##  VERSION HISTORY
 
 **v1.0 (November 2025)**
 - Initial framework release

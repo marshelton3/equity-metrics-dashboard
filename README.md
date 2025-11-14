@@ -14,7 +14,7 @@ Using data from the CDC WONDER database (2018-2022), we analyzed **6,214 materna
 
 ---
 
-## 🔍 Key Findings (2018-2022)
+##  Key Findings (2018-2022)
 
 Analysis of **6,214 maternal deaths** and **19.3 million births** revealed stark and widening disparities:
 
@@ -78,27 +78,27 @@ This analysis captures the critical pre-intervention baseline, allowing future a
 ##  Project Structure
 ```
 equity-metrics-dashboard/
-── notebooks/
-   ── 01_initial_exploration.ipynb    # National disparity analysis
-   ── 02_temporal_trends.ipynb        # Temporal trends & COVID impact
-── src/
-   ── analysis.py                     # Reusable analytics toolkit
-   ── README.md                       # Module documentation
-── framework/                         # Project 3
-   ── assessment_questions.json       # 60-question assessment
-   ── scoring_algorithm.py            # Automated scoring & reporting
-   ── framework_methodology.md        # Theoretical foundation
-   ── sample_assessment_report.md     # Example deliverable
-   ── README.md                       # Assessment tool guide
-── data/
-   ── raw/                            # CDC WONDER data (not in repo)
-── outputs/
-   ── comprehensive_dashboard.png
-   ── temporal_trends_by_race.png
-   ── disparity_dashboard_complete.png
-── docs/                               # Documentation (private notes)
-── requirements.txt                    # Python dependencies
-── README.md                           # This file
+ notebooks/
+    01_initial_exploration.ipynb    # National disparity analysis
+    02_temporal_trends.ipynb        # Temporal trends & COVID impact
+ src/
+    analysis.py                     # Reusable analytics toolkit
+    README.md                       # Module documentation
+ framework/                         # Project 3
+    assessment_questions.json       # 60-question assessment
+    scoring_algorithm.py            # Automated scoring & reporting
+    framework_methodology.md        # Theoretical foundation
+    sample_assessment_report.md     # Example deliverable
+    README.md                       # Assessment tool guide
+ data/
+    raw/                            # CDC WONDER data (not in repo)
+ outputs/
+    comprehensive_dashboard.png
+    temporal_trends_by_race.png
+    disparity_dashboard_complete.png
+ docs/                               # Documentation (private notes)
+ requirements.txt                    # Python dependencies
+ README.md                           # This file
 ```
 
 ## Technologies Used
@@ -195,7 +195,7 @@ Disparity Ratio = (Group MMR / White NH MMR)
 
 ---
 
-## 🎯 The Operational Equity Framework
+##  The Operational Equity Framework
 
 **Project 3 delivers a professional assessment tool** for evaluating health equity operational infrastructure.
 
@@ -203,17 +203,17 @@ This analysis validates the **Operational Equity Framework**: health equity requ
 
 ### Three Pillars:
 
-**🔄 PROCESS**: Care workflows and service delivery pathways
+** PROCESS**: Care workflows and service delivery pathways
 - Eliminates systemic barriers in how care is delivered
 - Includes language access, transportation, scheduling flexibility
 - Ensures policies translate to accessible services
 
-**👥 PEOPLE**: Workforce capability, training, and accountability
+** PEOPLE**: Workforce capability, training, and accountability
 - Cultural competency and representative workforce
 - Equity metrics tied to performance
 - Community health workers and peer support
 
-**💻 TECHNOLOGY**: Data infrastructure and monitoring systems
+** TECHNOLOGY**: Data infrastructure and monitoring systems
 - Real-time outcome stratification by race/ethnicity
 - Automated risk alerts and intervention triggers
 - Analytics capability to identify and address gaps
@@ -306,6 +306,6 @@ During COVID-19, **policy coverage expanded universally** (emergency Medicaid, t
 **Last Updated**: November 2025
 
 **Status**: 
- ✅ Project 1 Complete
- ✅ Project 2 Complete
- ✅ Project 3 Complete
+  Project 1 Complete
+  Project 2 Complete
+  Project 3 Complete

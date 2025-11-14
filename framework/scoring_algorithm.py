@@ -35,7 +35,7 @@ class EquityFrameworkScorer:
         self.scoring_guide = self.assessment_data['scoring_guide']
         self.pillars = ['PROCESS', 'PEOPLE', 'TECHNOLOGY']
         
-        print(f"✅ Loaded {self.metadata['total_questions']} questions")
+        print(f" Loaded {self.metadata['total_questions']} questions")
         print(f"   Framework: {self.metadata['framework_name']} v{self.metadata['version']}")
     
     def get_questions_for_pillar(self, pillar: str) -> List[Dict]:
@@ -321,19 +321,19 @@ class EquityFrameworkScorer:
         print("="*80)
         
         if overall_score < 40:
-            print("\n⚠️  CRITICAL: Significant operational gaps exist across all three pillars.")
+            print("\n  CRITICAL: Significant operational gaps exist across all three pillars.")
             print("   Recommendation: Engage comprehensive assessment and 6-month")
             print("   implementation support to build foundational infrastructure.")
         elif overall_score < 60:
-            print("\n⚡ MODERATE: Infrastructure exists but significant improvement needed.")
+            print("\n MODERATE: Infrastructure exists but significant improvement needed.")
             print("   Recommendation: Focus on lowest-scoring pillar first, then address")
             print("   cross-pillar integration.")
         elif overall_score < 80:
-            print("\n✓ STRONG: Solid infrastructure with targeted improvement opportunities.")
+            print("\n STRONG: Solid infrastructure with targeted improvement opportunities.")
             print("   Recommendation: Address specific gaps identified, benchmark against")
             print("   best-in-class organizations.")
         else:
-            print("\n🌟 BEST-IN-CLASS: Comprehensive operational equity infrastructure.")
+            print("\n BEST-IN-CLASS: Comprehensive operational equity infrastructure.")
             print("   Recommendation: Share practices with peer organizations, pursue")
             print("   publication of success factors.")
 
@@ -433,12 +433,12 @@ if __name__ == "__main__":
     scorer = EquityFrameworkScorer()
     
     # Load sample responses
-    print("\n📋 Loading sample assessment responses...")
+    print("\n Loading sample assessment responses...")
     responses = load_sample_responses()
-    print(f"✅ Loaded {len(responses)} responses")
+    print(f" Loaded {len(responses)} responses")
     
     # Generate report
-    print("\n📊 Generating assessment report...")
+    print("\n Generating assessment report...")
     scorer.generate_summary_report(responses, organization_name="Sample Health System")
     
-    print("\n✅ Scoring algorithm test complete!")
+    print("\n Scoring algorithm test complete!")

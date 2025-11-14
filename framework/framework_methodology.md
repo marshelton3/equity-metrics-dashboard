@@ -87,10 +87,10 @@ Coverage creates eligibility. People determine quality and appropriateness of ca
 - White mothers: 13.0 per 100K (baseline)
 
 **COVID-19 Stress Test (2020-2021):** Universal policy expansion implemented
-- Emergency Medicaid coverage expanded ✓
-- Telehealth reimbursement implemented ✓
-- Hospital surge capacity policies ✓
-- Testing access universalized ✓
+- Emergency Medicaid coverage expanded 
+- Telehealth reimbursement implemented 
+- Hospital surge capacity policies 
+- Testing access universalized 
 
 **Critical Finding:** Despite universal policy expansion, disparities WIDENED dramatically
 

@@ -30,10 +30,10 @@ Despite likely having equity policies and coverage expansions, Sample Health Sys
 **Critical gaps - High risk of poor equity outcomes**
 
 #### Strengths:
-- ✓ Documented care pathways exist
-- ✓ SDOH screening process in place
-- ✓ Care coordination across some settings
-- ✓ ED protocols for maternal emergencies
+-  Documented care pathways exist
+-  SDOH screening process in place
+-  Care coordination across some settings
+-  ED protocols for maternal emergencies
 
 #### Critical Gaps:
 1. **Access Barriers (0/5 points)**
@@ -71,10 +71,10 @@ Despite likely having equity policies and coverage expansions, Sample Health Sys
 **Critical gaps - High risk of poor equity outcomes**
 
 #### Strengths:
-- ✓ 51-75% of staff completed equity training
-- ✓ Psychological safety for escalating concerns
-- ✓ Patient navigators available
-- ✓ 51-75% of new hires receive equity onboarding
+-  51-75% of staff completed equity training
+-  Psychological safety for escalating concerns
+-  Patient navigators available
+-  51-75% of new hires receive equity onboarding
 
 #### Critical Gaps:
 1. **Accountability Vacuum (0/5 points)**
@@ -111,9 +111,9 @@ Despite likely having equity policies and coverage expansions, Sample Health Sys
 **Critical gaps - High risk of poor equity outcomes**
 
 #### Strengths:
-- ✓ 51-75% race/ethnicity data completeness
-- ✓ Mobile access to health records
-- ✓ Predictive analytics under development
+-  51-75% race/ethnicity data completeness
+-  Mobile access to health records
+-  Predictive analytics under development
 
 #### Critical Gaps:
 1. **No Real-Time Disparity Detection (0/5 points)**

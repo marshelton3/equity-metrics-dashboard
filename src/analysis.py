@@ -85,7 +85,7 @@ def load_maternal_data(
         if 'Year' in df.columns:
             df['Year'] = pd.to_numeric(df['Year'], errors='coerce')
         
-        print(f"✅ Loaded {len(df):,} rows of maternal mortality data")
+        print(f" Loaded {len(df):,} rows of maternal mortality data")
         return df
         
     except FileNotFoundError:
@@ -135,7 +135,7 @@ def load_birth_data(
         if 'Year' in df.columns:
             df['Year'] = pd.to_numeric(df['Year'], errors='coerce')
         
-        print(f"✅ Loaded {len(df):,} rows of birth data")
+        print(f" Loaded {len(df):,} rows of birth data")
         print(f"   Total births: {df['Births'].sum():,.0f}")
         return df
         
@@ -273,7 +273,7 @@ def calculate_mmr(
     # Sort by MMR descending
     merged = merged.sort_values('MMR', ascending=False).reset_index(drop=True)
     
-    print(f"✅ Calculated MMR for {len(merged)} groups")
+    print(f" Calculated MMR for {len(merged)} groups")
     print(f"   Total deaths: {merged['Deaths'].sum():,.0f}")
     print(f"   Total births: {merged['Births'].sum():,.0f}")
     
@@ -337,7 +337,7 @@ def create_disparity_ratios(
     # Calculate disparity ratios
     df['Disparity_Ratio'] = df['MMR'] / baseline_mmr
     
-    print(f"✅ Calculated disparity ratios vs {baseline_group} (MMR: {baseline_mmr:.1f})")
+    print(f" Calculated disparity ratios vs {baseline_group} (MMR: {baseline_mmr:.1f})")
     print(f"\nDisparity Summary:")
     for _, row in df.iterrows():
         if row[group_column] != baseline_group:
@@ -410,7 +410,7 @@ def visualize_disparities(
     # Save if path provided
     if output_path:
         plt.savefig(output_path, dpi=300, bbox_inches='tight')
-        print(f"✅ Saved visualization to {output_path}")
+        print(f" Saved visualization to {output_path}")
     
     plt.show()
 
@@ -493,7 +493,7 @@ def visualize_temporal_trends(
     # Save if path provided
     if output_path:
         plt.savefig(output_path, dpi=300, bbox_inches='tight')
-        print(f"✅ Saved visualization to {output_path}")
+        print(f" Saved visualization to {output_path}")
     
     plt.show()
 
