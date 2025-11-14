@@ -4,7 +4,7 @@
 
 ---
 
-## 🎯 Project Overview
+##  Project Overview
 
 This repository contains a complete data science analysis validating the **OE-3PI Framework™** - a novel tool for assessing organizational readiness to implement health equity initiatives. Using state-level maternal mortality data from CDC WONDER (2018-2023), the project demonstrates that comprehensive operational infrastructure predicts both baseline performance and stability/resilience in health outcomes.
 
@@ -22,7 +22,7 @@ This repository contains a complete data science analysis validating the **OE-3P
 
 ---
 
-## 📊 The OE-3PI Framework™
+##  The OE-3PI Framework™
 
 ### Three Pillars of Operational Equity
 
@@ -56,7 +56,7 @@ Maternal mortality was selected as the initial validation case due to policy tim
 
 ---
 
-## 📈 Repository Structure
+##  Repository Structure
 ```
 equity-metrics-dashboard/
 ├── data/
@@ -141,7 +141,7 @@ equity-metrics-dashboard/
 
 ---
 
-## 📊 Key Statistics
+##  Key Statistics
 
 ### Framework Validation
 
@@ -180,7 +180,7 @@ equity-metrics-dashboard/
 
 ---
 
-## 💡 Value Proposition
+##  Value Proposition
 
 ### For Health Systems
 
@@ -201,7 +201,7 @@ Framework reveals that **policy success requires implementation capacity**:
 
 ---
 
-## 🛠️ Technical Stack
+##  Technical Stack
 
 **Languages & Tools:**
 - Python 3.12
@@ -219,7 +219,7 @@ Framework reveals that **policy success requires implementation capacity**:
 
 ---
 
-## 📖 Publications & Outputs
+##  Publications & Outputs
 
 **In Development:**
 - Policy Brief: "State Infrastructure and Maternal Health Resilience" (2025)
@@ -233,7 +233,7 @@ Framework reveals that **policy success requires implementation capacity**:
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 ```bash
@@ -271,7 +271,7 @@ All notebooks are fully documented with markdown explanations and can be run seq
 
 ---
 
-## 📊 Data Access
+##  Data Access
 
 **Raw data** is included in `data/raw/` (CDC WONDER public data)  
 **Processed datasets** available in `data/processed/`
@@ -284,7 +284,7 @@ To download fresh data from CDC WONDER:
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 This repository documents original research validating the OE-3PI Framework™. 
 
@@ -300,7 +300,7 @@ This repository documents original research validating the OE-3PI Framework™.
 
 ---
 
-## 📜 License
+##  License
 
 **Research & Framework:** © 2025 Marshawn Shelton / Isosalus. All Rights Reserved.
 
@@ -310,7 +310,7 @@ The OE-3PI Framework™ and associated materials are proprietary. Unauthorized r
 
 ---
 
-## 🎓 Citation
+##  Citation
 
 If using this work in academic research, please cite:
 ```
@@ -321,13 +321,13 @@ GitHub repository: https://github.com/marshelton3/equity-metrics-dashboard
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **CDC WONDER Database** for public data access
 
 ---
 
-## 📬 Contact
+##  Contact
 
 **Marshawn Shelton, MPH, PMP, CCMP**  
 Health Equity Strategist | Operational Excellence Consultant  
@@ -340,4 +340,5 @@ Founder, Isosalus
 ---
 
 *Last Updated: November 14, 2025*
+
 *Research Status: Analysis Complete | Publications In Development*
