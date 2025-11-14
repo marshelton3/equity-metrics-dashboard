@@ -1,0 +1,35 @@
+State,Deaths,Births,MMR,Medicaid_Expansion,Expansion_Date,Doula_Coverage,Doula_Date,Paid_Family_Leave,PFL_Weeks,MMRC_Active,MMRC_Years_Active,Notes,MMRC_Maturity,Medicaid_Expansion_Binary,Doula_Coverage_Binary,PFL_Binary,Infrastructure_Score
+Alabama,169.0,348033.0,48.55861369467838,No,N/A,No,N/A,No,0,Yes,3,,Newer (1-4 years),0,0,0,0
+Tennessee,229.0,486847.0,47.03736492162835,No,N/A,No,N/A,No,0,Yes,8,,Moderate (5-9 years),0,0,0,0
+Georgia,344.0,750288.0,45.84906062738575,No,N/A,No,N/A,No,0,Yes,20,,Established (10+ years),0,0,0,1
+North Carolina,294.0,716438.0,41.03634927237248,Yes,2023-12-01,No,N/A,No,0,Yes,20,,Established (10+ years),1,0,0,2
+Louisiana,133.0,344713.0,38.58282107144204,Yes,2016-07-01,Yes,2022-07-01,No,0,Yes,12,,Established (10+ years),1,1,0,3
+Texas,800.0,2275653.0,35.15474459418901,No,N/A,No,N/A,No,0,Yes,15,,Established (10+ years),0,0,0,1
+Kentucky,110.0,315139.0,34.90523229432092,Yes,2014-01-01,No,N/A,No,0,Yes,7,,Moderate (5-9 years),1,0,0,1
+Mississippi,72.0,213303.0,33.75479951055541,No,N/A,No,N/A,No,0,Yes,8,,Moderate (5-9 years),0,0,0,0
+Virginia,192.0,576086.0,33.328357224442186,Yes,2019-01-01,Yes,2020-07-01,No,0,Yes,12,,Established (10+ years),1,1,0,3
+Ohio,247.0,783661.0,31.51873067563653,Yes,2014-01-01,No,N/A,No,0,Yes,15,,Established (10+ years),1,0,0,2
+New York,379.0,1279198.0,29.627938755376412,Yes,2014-01-01,Yes,2023-01-01,Yes,12,Yes,10,,Established (10+ years),1,1,1,4
+Florida,373.0,1313291.0,28.401930722132416,No,N/A,Yes,2023-07-01,No,0,Yes,8,,Moderate (5-9 years),0,1,0,1
+Missouri,114.0,420187.0,27.130777487166426,Yes,2021-10-01,Yes,2024-01-01,No,0,Yes,6,,Moderate (5-9 years),1,1,0,2
+Michigan,170.0,628368.0,27.05421027168793,Yes,2014-04-01,Yes,2023-04-01,No,0,Yes,15,,Established (10+ years),1,1,0,3
+Indiana,128.0,479667.0,26.685179509951695,Yes,2015-02-01,Yes,2022-07-01,No,0,Yes,6,,Moderate (5-9 years),1,1,0,2
+South Carolina,90.0,342105.0,26.307712544394263,No,N/A,No,N/A,No,0,Yes,7,,Moderate (5-9 years),0,0,0,0
+New Jersey,156.0,604130.0,25.822256799033322,Yes,2014-01-01,Yes,2019-01-01,Yes,12,Yes,7,,Moderate (5-9 years),1,1,1,3
+Arkansas,51.0,215437.0,23.67281386205712,Yes,2014-01-01,No,N/A,No,0,Yes,5,,Moderate (5-9 years),1,0,0,1
+Pennsylvania,182.0,790382.0,23.026840186137843,Yes,2015-01-01,No,N/A,No,0,Yes,10,,Established (10+ years),1,0,0,2
+Illinois,153.0,803555.0,19.040389270180633,Yes,2014-01-01,Yes,2023-01-01,No,0,Yes,18,,Established (10+ years),1,1,0,3
+California,393.0,2561478.0,15.342704485457224,Yes,2014-01-01,Yes,2023-01-01,Yes,8,Yes,15,,Established (10+ years),1,1,1,4
+Arizona,67.0,471577.0,14.207647955689104,Yes,2014-01-01,Yes,2023-01-01,No,0,Yes,6,,Moderate (5-9 years),1,1,0,2
+Oregon,34.0,242526.0,14.019115476278833,Yes,2014-01-01,Yes,2014-01-01,Yes,12,Yes,12,,Established (10+ years),1,1,1,4
+Maryland,49.0,412424.0,11.880976858766706,Yes,2014-01-01,No,N/A,Yes,12,Yes,10,,Established (10+ years),1,0,1,3
+Washington,53.0,502242.0,10.552681774921254,Yes,2014-01-01,Yes,2023-01-01,Yes,12,Yes,10,,Established (10+ years),1,1,1,4
+Wisconsin,36.0,369452.0,9.74416162316079,No,N/A,No,N/A,No,0,Yes,7,,Moderate (5-9 years),0,0,0,0
+West Virginia,10.0,104311.0,9.586716645416113,Yes,2014-01-01,No,N/A,No,0,Yes,4,,Newer (1-4 years),1,0,0,1
+New Mexico,10.0,131766.0,7.589211177390222,Yes,2014-01-01,No,N/A,No,0,Yes,6,,Moderate (5-9 years),1,0,0,1
+Iowa,14.0,220914.0,6.337307730610102,Yes,2014-01-01,No,N/A,No,0,Yes,4,,Newer (1-4 years),1,0,0,1
+Massachusetts,21.0,409426.0,5.12913200431824,Yes,2014-01-01,Yes,2023-01-01,Yes,12,Yes,12,,Established (10+ years),1,1,1,4
+Oklahoma,12.0,291119.0,4.122025700830244,Yes,2021-07-01,Yes,2024-01-01,No,0,Yes,6,,Moderate (5-9 years),1,1,0,2
+Utah,10.0,277178.0,3.607789940038531,Yes,2020-01-01,No,N/A,No,0,Yes,6,,Moderate (5-9 years),1,0,0,1
+Colorado,13.0,374055.0,3.4754247370039164,Yes,2014-01-01,Yes,2024-01-01,Yes,12,Yes,12,,Established (10+ years),1,1,1,4
+Minnesota,13.0,386921.0,3.359858989302726,Yes,2014-01-01,Yes,2014-01-01,Yes,12,Yes,12,,Established (10+ years),1,1,1,4
