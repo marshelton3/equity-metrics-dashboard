@@ -222,8 +222,8 @@ Framework reveals that **policy success requires implementation capacity**:
 ## 📖 Publications & Outputs
 
 **In Development:**
-- Policy Brief: "State Infrastructure and Maternal Health Resilience" (2024)
-- White Paper: "Operationalizing Health Equity: The OE-3PI Framework" (2024)
+- Policy Brief: "State Infrastructure and Maternal Health Resilience" (2025)
+- White Paper: "Operationalizing Health Equity: The OE-3PI Framework" (2025)
 - Journal Article: "The OE-3PI Framework for Operational Equity: Validation Using State-Level Maternal Mortality Outcomes, 2018-2023" (in preparation for Maternal & Child Health Journal)
 
 **Available Now:**
