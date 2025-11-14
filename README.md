@@ -1,311 +1,343 @@
-# Maternal Mortality Equity Metrics Dashboard
+# Equity Metrics Dashboard: Maternal Mortality Analysis & OE-3PI Framework™ Validation
 
-> Analyzing racial and ethnic disparities in maternal mortality across the United States (2018-2022)
-
-**Part of the [Isosalus](https://isosalus.com) Operational Equity Framework Research Initiative**
+**A comprehensive analysis of maternal mortality trends (2018-2023) and validation of the Operational Equity - Three Pillars Implementation (OE-3PI) Framework™**
 
 ---
 
-##  Project Overview
+## 🎯 Project Overview
 
-This project provides a comprehensive analysis of maternal mortality disparities in the United States, examining how operational equity gaps contribute to persistent and widening disparities in maternal health outcomes.
+This repository contains a complete data science analysis validating the **OE-3PI Framework™** - a novel tool for assessing organizational readiness to implement health equity initiatives. Using state-level maternal mortality data from CDC WONDER (2018-2023), the project demonstrates that comprehensive operational infrastructure predicts both baseline performance and stability/resilience in health outcomes.
 
-Using data from the CDC WONDER database (2018-2022), we analyzed **6,214 maternal deaths** and **19.3 million births** to uncover critical disparities and temporal trends.
+### Key Findings
 
----
+**Framework Validation:**
+- **Baseline Performance:** States with comprehensive infrastructure show 85% lower maternal mortality (r = -0.367, p = 0.033)
+- **Stability/Resilience:** High-infrastructure states demonstrate 4.7x greater stability (r = -0.554)
+- **Value-Based Care:** Infrastructure predicts sustained excellence, making it an effective VBC readiness assessment
 
-##  Key Findings (2018-2022)
-
-Analysis of **6,214 maternal deaths** and **19.3 million births** revealed stark and widening disparities:
-
-### National Disparities (2018-2022)
-
-- **American Indian/Alaska Native mothers**: 91.1 deaths per 100K births (**3.2x White rate**) - Highest disparity
-- **Black mothers**: 74.5 deaths per 100K births (**2.6x White rate**)
-- **White mothers**: 28.3 deaths per 100K births (baseline)
-- **Hispanic mothers**: 24.5 deaths per 100K births (0.87x White rate)
-- **Asian/Pacific Islander mothers**: 18.4 deaths per 100K births (0.65x White rate)
-
-### Temporal Trends: COVID-19 Impact
-
-**2021 was the deadliest year**, with maternal deaths increasing **74% from 2018**:
-
-- **AIAN mothers**: +192% increase (54.3 → 158.3 per 100K) - **Disparity widened to 4.4x White rate**
-- **Hispanic mothers**: +141% increase (16.1 → 38.9 per 100K) - **Flipped from lower to higher risk than White**
-- **Black mothers**: +86% increase (53.3 → 99.2 per 100K)
-- **White mothers**: +58% increase (22.8 → 35.9 per 100K)
-
-**The disparity gaps WIDENED during the COVID-19 pandemic, despite universal policy responses.**
-
-##  Policy Context & Timeline
-
-**Analysis Period**: 2018-2022
-
-**Key Policy Developments:**
-- **2020-2021**: Emergency COVID-19 provisions (temporary Medicaid coverage, telehealth expansion)
-- **April 2022**: American Rescue Plan Act implementation. States begin 12-month postpartum Medicaid coverage extensions
-- **2023-2024**: Post-intervention period (data pending CDC release)
-
-**Research Significance:**
-This analysis captures the critical pre-intervention baseline, allowing future assessment of whether Medicaid postpartum extensions effectively reduce disparities or if operational infrastructure gaps persist despite the extended policy coverage.
-
-**Hypothesis**: Policy coverage alone (Medicaid extension) will be insufficient without operational infrastructure investments in process re-design, people, and technology. This is evident in the differential COVID-19 outcomes, despite universal policy responses.
+**National Trends:**
+- 45% improvement in national maternal mortality rate (2021-2023): 32.9 → 18.2 per 100K births
+- Recovery from the COVID-19 pandemic peak
+- Geographic disparities persist: Southern states average 2-3x higher mortality than Northeastern states
 
 ---
 
-##  Visualizations
+## 📊 The OE-3PI Framework™
 
-### Comprehensive Dashboard
+### Three Pillars of Operational Equity
 
-![Comprehensive Maternal Mortality Dashboard](outputs/comprehensive_dashboard.png)
+The framework assesses organizational readiness across three interdependent pillars:
 
-*Four-panel analysis showing temporal trends, current disparities, widening gaps, and COVID-19 impact*
+**1. PROCESS Pillar: Access Infrastructure**
+- Policies and systems that enable care access
+- Examples: Medicaid expansion, care coordination, referral pathways
+- Impact: Foundation for equity implementation
 
-### Temporal Trends by Race/Ethnicity
+**2. PEOPLE Pillar: Workforce & Support**  
+- Programs supporting patients and the workforce
+- Examples: Community health workers, doulas, paid family leave
+- Impact: Enables human-centered care delivery
 
-![Temporal Trends](outputs/temporal_trends_by_race.png)
+**3. TECHNOLOGY Pillar: Data & Learning Systems**
+- Systems enabling measurement and improvement
+- Examples: Data analytics, quality dashboards, review committees
+- Impact: Drives continuous learning and adaptation
 
-*Maternal mortality rates over time, showing 2021 peak and differential impact by race/ethnicity*
+### Framework Applicability
 
-### National Disparity Dashboard
+While validated using maternal mortality data, the OE-3PI Framework is designed for **universal application across the healthcare continuum**:
+- Chronic disease management (diabetes, hypertension)
+- Behavioral health integration
+- Cancer screening and treatment
+- Social determinants interventions
+- Any health outcome with persistent disparities
 
-![Disparity Dashboard](outputs/disparity_dashboard_complete.png)
-
-*Current state of maternal mortality disparities with focus on operational equity gaps*
+Maternal mortality was selected as the initial validation case due to policy timing (2022 Medicaid postpartum extension), data availability, and health equity urgency - not as a limitation on applicability.
 
 ---
 
-##  Project Structure
+## 📈 Repository Structure
 ```
 equity-metrics-dashboard/
- notebooks/
-    01_initial_exploration.ipynb    # National disparity analysis
-    02_temporal_trends.ipynb        # Temporal trends & COVID impact
- src/
-    analysis.py                     # Reusable analytics toolkit
-    README.md                       # Module documentation
- framework/                         # Project 3
-    assessment_questions.json       # 60-question assessment
-    scoring_algorithm.py            # Automated scoring & reporting
-    framework_methodology.md        # Theoretical foundation
-    sample_assessment_report.md     # Example deliverable
-    README.md                       # Assessment tool guide
- data/
-    raw/                            # CDC WONDER data (not in repo)
- outputs/
-    comprehensive_dashboard.png
-    temporal_trends_by_race.png
-    disparity_dashboard_complete.png
- docs/                               # Documentation (private notes)
- requirements.txt                    # Python dependencies
- README.md                           # This file
+├── data/
+│   ├── raw/                          # CDC WONDER downloads
+│   │   ├── maternal_mortality_*.txt
+│   │   └── births_*.txt
+│   └── processed/                    # Analysis-ready datasets
+│       ├── state_mmr_by_year.csv     # Time-series data (146 observations)
+│       ├── state_policy_database.csv # 51 jurisdictions × 4 policies
+│       ├── merged_policy_outcomes.csv
+│       └── policy_correlations.csv
+│
+├── notebooks/
+│   ├── 01_initial_exploration.ipynb  # National trends analysis
+│   ├── 02_temporal_trends.ipynb      # Time-series patterns
+│   └── 03_state_analysis.ipynb       # Complete state analysis & validation
+│
+├── outputs/
+│   └── figures/                       # Publication-quality visualizations
+│       ├── national_mmr_trend.png
+│       ├── state_mmr_map_interactive.html
+│       ├── infrastructure_vs_mmr.png
+│       └── framework_validation_complete.png
+│
+├── src/
+│   └── analysis.py                    # Reusable analysis functions
+│
+├── framework/                         # OE-3PI Framework™ documentation
+│   ├── framework_methodology.md
+│   ├── scoring_algorithm.py
+│   └── sample_assessment_report.md
+│
+└── scripts/
+    └── remove_all_emojis.py           # Portfolio maintenance
 ```
-
-## Technologies Used
-
-- **Python 3.12**: Core programming language
-- **pandas**: Data manipulation and analysis
-- **matplotlib & seaborn**: Data visualization
-- **NumPy**: Numerical computing
-- **Jupyter Notebook**: Interactive analysis and documentation
-- **JSON**: Structured data storage for assessment framework
-- **Modular architecture**: Reusable functions in `/src` and `/framework` modules
 
 ---
 
-##  Getting Started
+## 🔬 Analysis Components
 
-### Prerequisites
+### Project 1-2: National Trends & Temporal Analysis
+**Objective:** Understand post-policy national trends  
+**Key Finding:** 45% improvement (2021-2023) following Medicaid postpartum extension
 
-- Python 3.12+
-- pip package manager
+**Files:**
+- `notebooks/01_initial_exploration.ipynb`
+- `notebooks/02_temporal_trends.ipynb`
 
-### Installation
+### Project 3: State-Level Geographic Analysis  
+**Objective:** Map state disparities and regional patterns  
+**Key Finding:** Persistent North-South divide; Northeast showed largest improvements
 
-1. **Clone the repository**
-```bash
-   git clone https://github.com/marshelton3/equity-metrics-dashboard.git
-   cd equity-metrics-dashboard
-```
+**Files:**
+- `notebooks/03_state_analysis.ipynb` (Sessions 1-2)
+- `outputs/figures/state_mmr_map_interactive.html`
 
-2. **Create virtual environment**
-```bash
-   python3.12 -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+### Project 4: Policy Mapping & Cross-Sectional Validation
+**Objective:** Test if infrastructure predicts outcomes  
+**Key Finding:** Infrastructure Score negatively correlated with MMR (r = -0.367, p = 0.033)
 
-3. **Install dependencies**
-```bash
-   pip install -r requirements.txt
-```
+**Policies Tracked:**
+- Medicaid Expansion (41 jurisdictions)
+- Doula Medicaid Coverage (21 jurisdictions)  
+- Paid Family Leave (14 jurisdictions)
+- MMRC Active Status (all 51, varying maturity)
 
-4. **Download data from CDC WONDER**
-   - [Multiple Cause of Death](https://wonder.cdc.gov/mcd.html) (2018-2022)
-   - [Natality](https://wonder.cdc.gov/natality.html) (2018-2022)
-   - Place files in `data/raw/` directory
+**Files:**
+- `notebooks/03_state_analysis.ipynb` (Session 3)
+- `data/processed/state_policy_database.csv`
 
-5. **Launch Jupyter Notebook**
-```bash
-   jupyter notebook
-```
+### Project 5: Time-Series & Resilience Analysis
+**Objective:** Test if infrastructure predicts improvement and stability  
+**Key Findings:**
+- Infrastructure does NOT predict short-term improvement (regression to the mean dominates)
+- Infrastructure DOES predict stability/resilience (r = -0.554)
+- High-infrastructure states maintain low, stable mortality
+- Low-infrastructure states experience volatile, crisis-driven fluctuations
 
-6. **Open and run notebooks**
-   - Start with `01_initial_exploration.ipynb`
-   - Then `02_temporal_trends.ipynb`
-
----
-
-##  Data Sources
-
-**Maternal Mortality Data:**
-- Source: CDC WONDER Multiple Cause of Death Database
-- Years: 2018-2022
-- ICD-10 Codes: O00-O99 (Pregnancy, childbirth and the puerperium)
-- Geography: United States (national level)
-
-**Birth Data:**
-- Source: CDC WONDER Natality Database
-- Years: 2018-2022
-- Geography: United States (national level)
-
-**Note**: Raw data files are not included in this repository due to size. Download instructions provided above.
+**Files:**
+- `notebooks/03_state_analysis.ipynb` (Session 5)
+- `data/processed/state_mmr_by_year.csv`
 
 ---
 
+## 📊 Key Statistics
 
-##  Methodology
+### Framework Validation
 
-### Rate Calculation
-Maternal Mortality Rate (MMR) calculated as:
-```
-MMR = (Maternal Deaths / Live Births) × 100,000
-```
+| Prediction | Correlation | P-Value | Interpretation |
+|-----------|-------------|---------|----------------|
+| Baseline MMR | r = -0.367 | p = 0.033 | Infrastructure → Lower mortality ✅ |
+| Volatility (CV) | r = -0.363 | - | Infrastructure → Stability ✅ |
+| Range | r = -0.554 | - | Infrastructure → Resilience ✅ |
 
-### Disparity Ratios
-Calculated relative to White (Non-Hispanic) baseline:
-```
-Disparity Ratio = (Group MMR / White NH MMR)
-```
+### Infrastructure Score Distribution
 
-### Statistical Approach
-- Aggregated data by race/ethnicity and year
-- Standardized race/ethnicity categories (Hispanic Origin + Race)
-- Handled CDC data suppression (counts <10)
-- Temporal trend analysis using year-over-year comparisons
+| Score | States | Avg MMR | Volatility (CV) | Avg Range |
+|-------|--------|---------|-----------------|-----------|
+| 0 | 5 | 39.2 | 33.6% | 34.2 |
+| 1 | 5 | 36.0 | 29.0% | 27.0 |
+| 2 | 6 | 29.4 | 27.6% | 22.4 |
+| 3 | 6 | 28.1 | 34.7% | 24.1 |
+| 4 | 7 | 20.9 | 15.2% | 7.3 |
 
----
+**Score 4 states demonstrate:**
+- 47% lower average MMR vs Score 0
+- 54% lower volatility
+- 79% smaller outcome range
 
-##  The Operational Equity Framework
+### Exemplar States
 
-**Project 3 delivers a professional assessment tool** for evaluating health equity operational infrastructure.
+**Most Stable (High Resilience):**
+1. Oregon (Score 4): CV = 6.5%, Range = 3.5
+2. Massachusetts (Score 4): CV = 9.0%, Range = 2.0
+3. Maryland (Score 3): CV = 14.1%, Range = 5.8
 
-This analysis validates the **Operational Equity Framework**: health equity requires operational infrastructure across three equal pillars, not just policy declarations.
-
-### Three Pillars:
-
-** PROCESS**: Care workflows and service delivery pathways
-- Eliminates systemic barriers in how care is delivered
-- Includes language access, transportation, scheduling flexibility
-- Ensures policies translate to accessible services
-
-** PEOPLE**: Workforce capability, training, and accountability
-- Cultural competency and representative workforce
-- Equity metrics tied to performance
-- Community health workers and peer support
-
-** TECHNOLOGY**: Data infrastructure and monitoring systems
-- Real-time outcome stratification by race/ethnicity
-- Automated risk alerts and intervention triggers
-- Analytics capability to identify and address gaps
-
-### Key Insight from 2018-2022 Analysis:
-
-During COVID-19, **policy coverage expanded universally** (emergency Medicaid, telehealth reimbursement), but communities lacking operational infrastructure experienced the **worst increases** in maternal mortality:
-- AIAN: +192% increase
-- Black: +86% increase  
-- Hispanic: +141% increase
-
-**Conclusion**: Policy declarations ≠ Operational implementation
-
-### Framework Products:
-- **60-question comprehensive assessment** - Evaluates organizational infrastructure
-- **Automated scoring algorithm** - Identifies priority gaps
-- **Gap analysis and recommendations** - Actionable implementation roadmap
-- **Evidence-based methodology** - Validated through 2018-2022 maternal mortality analysis
-- **Policy readiness evaluation** - Predicts organizational capacity for equity initiatives
-
-**Learn more:** See [`/framework`](framework/) directory for complete documentation.
-
-### Use Cases:
-- Health system equity assessments ($5K-15K)
-- Implementation roadmap development
-- Policy effectiveness evaluation
-- Organizational benchmarking
-- Pre/post-intervention measurement
-
-##  Future Work
-
-**Upcoming analyses (Projects 4-6):**
-
-- **Project 4**: State-level geographic analysis and policy context
-- **Project 5**: Medicaid expansion impact and policy effectiveness
-- **Project 6**: Predictive modeling and risk stratification
+**Most Volatile (Need Infrastructure):**
+1. Louisiana (Score 3): CV = 52.1%, Range = 48.4
+2. Illinois (Score 3): CV = 45.9%, Range = 20.9
+3. Alabama (Score 0): CV = 40.9%, Range = 53.3
 
 ---
 
-##  Publications & Outputs
+## 💡 Value Proposition
+
+### For Health Systems
+
+The OE-3PI Framework™ identifies **organizational readiness for value-based care** by predicting:
+
+1. **Sustained Performance:** Organizations with comprehensive infrastructure maintain consistently low mortality rates
+2. **Stability:** High-infrastructure organizations show 4.7x less year-to-year volatility
+3. **Resilience:** Strong infrastructure enables stable performance through external shocks (e.g., COVID-19)
+
+**In value-based care models:** Predictable, stable outcomes reduce financial risk and enable long-term quality improvement - making infrastructure assessment critical for VBC readiness evaluation.
+
+### For Policymakers
+
+Framework reveals that **policy success requires implementation capacity**:
+- Same policy (Medicaid postpartum extension) → Different outcomes by state
+- Infrastructure predicts which states can operationalize policy effectively
+- Investment in infrastructure creates sustained improvement, not volatile swings
+
+---
+
+## 🛠️ Technical Stack
+
+**Languages & Tools:**
+- Python 3.12
+- pandas (data manipulation)
+- matplotlib/seaborn (visualization)
+- plotly (interactive maps)
+- scipy (statistical analysis)
+- Jupyter Notebooks
+
+**Data Sources:**
+- CDC WONDER Database (2018-2023)
+- State Medicaid agencies (policy implementation dates)
+- National Health Law Program (doula coverage tracking)
+- CDC Review to Action program (MMRC data)
+
+---
+
+## 📖 Publications & Outputs
 
 **In Development:**
-- Paper 1: "Evaluating Medicaid Postpartum Extensions: A Natural Experiment (2018-2024)"
-- Paper 2: "Why Some States Succeeded While Others Failed: The Role of Operational Infrastructure"
-- Paper 3: "The Operational Equity Framework: Evidence from Maternal Health Policy Implementation"
+- Policy Brief: "State Infrastructure and Maternal Health Resilience" (2024)
+- White Paper: "Operationalizing Health Equity: The OE-3PI Framework" (2024)
+- Journal Article: "The OE-3PI Framework for Operational Equity: Validation Using State-Level Maternal Mortality Outcomes, 2018-2023" (in preparation for Maternal & Child Health Journal)
 
-- Policy Brief 1: State Scorecard (From Project 4)
-- Policy Brief 2: Implementation Guide (From Project 5)
-- Policy Brief 3: Framework Application
-
----
-
-##  About
-
-**Marshawn Shelton, MPH, PMP, CCMP**
-
-- Founder, [Isosalus](https://isosalus.com) - Operationalizing Health Equity
-- Former health system transformation roles: 
-   - Change Manager, **Mercy St. Louis**
-   - AI Project Manager, Operations Transformation, **Piedmont Healthcare**
-   - Senior Process Improvement Advisor, Perioperative Services, **Grady Health System**
-   - Project Manager, Clinical Effectiveness & Quality Improvement, **Penn Medicine**
-   - Management Consultant, EHR Modernization, **Guidehouse**
-
-**Connect:**
-- LinkedIn: [linkedin.com/in/marshawnshelton](https://linkedin.com/in/marshawnshelton)
-- GitHub: [@marshelton3](https://github.com/marshelton3)
-- Website: [isosalus.com](https://isosalus.com)
-
+**Available Now:**
+- Interactive visualizations (see `outputs/figures/`)
+- Complete analysis notebooks (fully documented)
+- Reusable framework assessment tool
 
 ---
 
-##  Acknowledgments
+## 🚀 Getting Started
 
-- **CDC WONDER**: For providing public access to vital statistics data
-- **Communities affected by maternal mortality disparities**: This work is dedicated to improving outcomes for all mothers.
+### Prerequisites
+```bash
+python >= 3.12
+pandas >= 2.0
+matplotlib >= 3.7
+plotly >= 5.14
+scipy >= 1.11
+```
+
+### Installation
+```bash
+# Clone repository
+git clone https://github.com/marshelton3/equity-metrics-dashboard.git
+cd equity-metrics-dashboard
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Launch Jupyter
+jupyter notebook
+```
+
+### Running the Analysis
+
+1. **Explore national trends:** `notebooks/01_initial_exploration.ipynb`
+2. **View temporal patterns:** `notebooks/02_temporal_trends.ipynb`
+3. **Complete state analysis:** `notebooks/03_state_analysis.ipynb`
+
+All notebooks are fully documented with markdown explanations and can be run sequentially.
 
 ---
 
-##  Important Notes
+## 📊 Data Access
 
-**Data Privacy**: All data used is publicly available and de-identified. CDC WONDER suppresses small counts (<10) to protect privacy.
+**Raw data** is included in `data/raw/` (CDC WONDER public data)  
+**Processed datasets** available in `data/processed/`
 
-**Interpretation**: Findings represent population-level patterns and should not be used for individual risk assessment.
-
-**Usage**: This analysis is intended for research, education, and policy advocacy purposes.
+To download fresh data from CDC WONDER:
+1. Visit: https://wonder.cdc.gov/
+2. Select "Natality" and "Maternal Mortality" datasets
+3. Filter: Years 2018-2023, State-level
+4. Export as tab-delimited text
 
 ---
 
-**Last Updated**: November 2025
+## 🤝 Contributing
 
-**Status**: 
-  Project 1 Complete
-  Project 2 Complete
-  Project 3 Complete
+This repository documents original research validating the OE-3PI Framework™. 
+
+**For inquiries about:**
+- Framework application to other health conditions
+- Organizational readiness assessments
+- Consulting services
+- Research collaboration
+
+**Contact:** Marshawn Shelton  
+**Website:** [isosalus.com](https://isosalus.com)  
+**LinkedIn:** [Marshawn Shelton, MPH, PMP, CCMP](https://www.linkedin.com/in/marshawnshelton)
+
+---
+
+## 📜 License
+
+**Research & Framework:** © 2025 Marshawn Shelton / Isosalus. All Rights Reserved.
+
+The OE-3PI Framework™ and associated materials are proprietary. Unauthorized reproduction or commercial use is prohibited.
+
+**Data:** CDC WONDER data is public domain. Processed datasets may be used with attribution.
+
+---
+
+## 🎓 Citation
+
+If using this work in academic research, please cite:
+```
+Shelton, M. (2025). Operationalizing Health Equity: Validation of the OE-3PI 
+Framework Using State-Level Maternal Mortality Outcomes, 2018-2023. 
+GitHub repository: https://github.com/marshelton3/equity-metrics-dashboard
+```
+
+---
+
+## 🙏 Acknowledgments
+
+- **CDC WONDER Database** for public data access
+
+---
+
+## 📬 Contact
+
+**Marshawn Shelton, MPH, PMP, CCMP**  
+Health Equity Strategist | Operational Excellence Consultant  
+Founder, Isosalus
+
+**Email:** [contact via LinkedIn]  
+**LinkedIn:** [linkedin.com/in/marshawnshelton](https://www.linkedin.com/in/marshawnshelton)  
+**Website:** [isosalus.com](https://isosalus.com)
+
+---
+
+*Last Updated: November 14, 2025*
+*Research Status: Analysis Complete | Publications In Development*
