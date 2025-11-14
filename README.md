@@ -323,7 +323,7 @@ GitHub repository: https://github.com/marshelton3/equity-metrics-dashboard
 
 ##  Acknowledgments
 
-- **CDC WONDER Database** for public data access
+**CDC WONDER Database** for public data access
 
 ---
 
