@@ -45,7 +45,7 @@ The framework assesses organizational readiness across three interdependent pill
 
 ### Framework Applicability
 
-While validated using maternal mortality data, the OE-3PI Framework is designed for **universal application across the healthcare continuum**:
+While validated using maternal mortality data, the OE-3PI Framework™ is designed for **universal application across the healthcare continuum**:
 - Chronic disease management (diabetes, hypertension)
 - Behavioral health integration
 - Cancer screening and treatment
